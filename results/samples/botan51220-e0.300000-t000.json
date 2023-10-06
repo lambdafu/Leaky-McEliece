@@ -1,0 +1,28 @@
+{
+  "leakfile": "botan51220-e0.300000-t000.leak",
+  "kem": "botan51220",
+  "params": {
+    "m": 9,
+    "t": 20,
+    "n": 512,
+    "q": 512,
+    "k": 332
+  },
+  "error": 0.3,
+  "estimated_error": 0.3011111111111111,
+  "seed": 3221077488,
+  "success": false,
+  "elapsed": 63279,
+  "recovered_columns": 0,
+  "columns": [
+    {
+      "j": 0,
+      "nr_of_candidates": 261632,
+      "elapsed": 27714,
+      "distance": 57,
+      "alpha": 147,
+      "g_of_alpha": 1,
+      "correct": false
+    }
+  ]
+}

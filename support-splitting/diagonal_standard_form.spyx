@@ -1,0 +1,41 @@
+from sage.all_cmdline import copy
+from sage.matrix.matrix_mod2_dense cimport Matrix_mod2_dense as Matrix
+
+"""
+    Input:
+        Two square matrices M,U \in F_2^(d x d),
+        U has to be invertible.
+    Output:
+        Two square matrices D,S \in F_2^(d x d),
+        D is diagonal standard form of M,
+        and it holds that U^-1 * M = S^-1 * D.
+"""
+
+def diagonalStandardForm(M,U):
+  d = M.nrows()
+
+  untouched = list(range(d))
+  
+  cdef Matrix D = copy(M)
+  cdef Matrix S = copy(U)
+  
+  for col in range(d):
+      
+      foundOne = False
+      for row in untouched:
+          if D.get_unsafe(row,col):
+              foundOne = True
+              break
+      if foundOne:
+          untouched.remove(col)
+
+          if not D.get_unsafe(col,col):
+              D.add_multiple_of_row_c(col,row,1,0)
+              S.add_multiple_of_row_c(col,row,1,0)
+
+          for i in range(d):
+              if i != col and D.get_unsafe(i,col):
+                  D.add_multiple_of_row_c(i,col,1,0)
+                  S.add_multiple_of_row_c(i,col,1,0)
+      
+  return D,S

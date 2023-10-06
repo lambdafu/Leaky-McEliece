@@ -1,0 +1,8 @@
+#!/bin/sh
+gcc -O3 -march=native -mtune=native \
+    -Wall -Wextra -Wno-unused-function -Wno-unused-parameter -Wno-sign-compare \
+    -I. -Isubroutines "-DCRYPTO_NAMESPACE(x)=x" "-D_CRYPTO_NAMESPACE(x)=_##x" \
+    -DLEAK -o leak \
+    nist/leak_kem.c nist/rng.c benes.c bm.c controlbits.c decrypt.c encrypt.c gf.c operations.c \
+    pk_gen.c root.c sk_gen.c synd.c transpose.c util.c \
+    -lXKCP -lcrypto -ldl

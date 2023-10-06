@@ -1,0 +1,109 @@
+{
+  "leakfile": "mceliece51220-e0.300000-t000.leak",
+  "kem": "mceliece51220",
+  "params": {
+    "m": 9,
+    "t": 20,
+    "n": 512,
+    "q": 512,
+    "k": 332
+  },
+  "error": 0.3,
+  "estimated_error": 0.3011111111111111,
+  "seed": 1400465799,
+  "success": false,
+  "elapsed": 1219859,
+  "recovered_columns": 9,
+  "columns": [
+    {
+      "j": 0,
+      "nr_of_candidates": 261632,
+      "elapsed": 35241,
+      "distance": 56,
+      "alpha": 441,
+      "g_of_alpha": 3,
+      "correct": true
+    },
+    {
+      "j": 1,
+      "nr_of_candidates": 261121,
+      "elapsed": 37615,
+      "distance": 58,
+      "alpha": 55,
+      "g_of_alpha": 335,
+      "correct": true
+    },
+    {
+      "j": 2,
+      "nr_of_candidates": 260610,
+      "elapsed": 31800,
+      "distance": 58,
+      "alpha": 130,
+      "g_of_alpha": 9,
+      "correct": true
+    },
+    {
+      "j": 3,
+      "nr_of_candidates": 260099,
+      "elapsed": 35788,
+      "distance": 58,
+      "alpha": 398,
+      "g_of_alpha": 488,
+      "correct": true
+    },
+    {
+      "j": 4,
+      "nr_of_candidates": 259588,
+      "elapsed": 35995,
+      "distance": 52,
+      "alpha": 167,
+      "g_of_alpha": 445,
+      "correct": true
+    },
+    {
+      "j": 5,
+      "nr_of_candidates": 259077,
+      "elapsed": 32544,
+      "distance": 48,
+      "alpha": 92,
+      "g_of_alpha": 69,
+      "correct": true
+    },
+    {
+      "j": 6,
+      "nr_of_candidates": 258566,
+      "elapsed": 35728,
+      "distance": 55,
+      "alpha": 8,
+      "g_of_alpha": 344,
+      "correct": true
+    },
+    {
+      "j": 7,
+      "nr_of_candidates": 258055,
+      "elapsed": 36047,
+      "distance": 46,
+      "alpha": 216,
+      "g_of_alpha": 242,
+      "correct": true
+    },
+    {
+      "j": 8,
+      "nr_of_candidates": 257544,
+      "elapsed": 35605,
+      "distance": 48,
+      "alpha": 366,
+      "g_of_alpha": 256,
+      "correct": true
+    },
+    {
+      "j": 9,
+      "nr_of_candidates": 257033,
+      "elapsed": 38864,
+      "distance": 57,
+      "alpha": 491,
+      "g_of_alpha": 52,
+      "correct": false
+    }
+  ]
+}

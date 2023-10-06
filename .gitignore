@@ -1,0 +1,12 @@
+synthetic-leak.sage.py
+**/*.sage.py
+sage/mceliece-sage-20221023/*.py
+!sage/mceliece-sage-20221023/controlbits.py
+cmake-build-debug
+.idea
+results/*/*.leak
+results/*/*.json
+!results/samples/*
+
+**/cache-*.bin
+
