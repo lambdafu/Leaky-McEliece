@@ -111,6 +111,12 @@ leak = '00010001...' # The leak bits, as a sequence of 00 or 01 bytes.
  - Note that the leak my contain data from several key generation attempts (in case FAIL is returned).
    In this case, our attack only uses the leak data from the last, successful attempt.
 
+mat = '...' # The matrix H used during public key generation.
+ - Length is (mt)*(n/8) bytes.
+ - This is used for differential power analysis. Due to restrictions on the system under test, we can not
+   run the whole key generation on the device, so we run all steps up to gaussian elimination offline.
+   The value of mat is then transfered to the device, where gaussian elimination is run under testing conditions.
+
 ss = '...'
  - A sample secret message, Classic McEliece only.
  - Unused. It can be used to verify decryption, for example using the Sage implementation of Classic McEliece.

@@ -9,6 +9,9 @@ unsigned char *leak_buffer = NULL;
 size_t leak_buffer_len = 0;
 size_t leak_buffer_offset = 0;
 
+unsigned char *mat_buffer = NULL;
+size_t mat_buffer_len = 0;
+
 void leak_byte(unsigned char out) {
     if (leak_buffer_offset >= leak_buffer_len) {
         leak_buffer_len = leak_buffer_len ? 2*leak_buffer_len : 4096;
@@ -20,6 +23,13 @@ void leak_byte(unsigned char out) {
 
 void leak_bit(unsigned char bit) {
     leak_byte(bit ? 0x01 : 0x00);
+}
+
+void export_mat(unsigned char* mat, size_t len) {
+    mat_buffer_len = len;
+    mat_buffer = malloc(len);
+    assert(mat_buffer);
+    memcpy(mat_buffer, mat, len);
 }
 
 void print_bytes(char *prefix, unsigned char *bytes, size_t len) {
@@ -103,5 +113,6 @@ int main(int argc, char* argv[]) {
     }
 
     print_bytes("leak", leak_buffer, leak_buffer_offset);
+    print_bytes("mat", mat_buffer, mat_buffer_len);
     return 0;
 }

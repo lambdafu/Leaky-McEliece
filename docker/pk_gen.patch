@@ -1,16 +1,30 @@
 --- pk_gen.c.orig	2023-05-02 13:11:27.119939011 +0000
 +++ pk_gen.c	2023-05-02 13:12:07.693708002 +0000
-@@ -17,6 +17,10 @@
+@@ -17,6 +17,11 @@
  #include "crypto_declassify.h"
  #include "crypto_uint64.h"
 
 +#if LEAK
 +void leak_bit(unsigned char);
++void export_mat(unsigned char*, size_t);
 +#endif
 +
  static crypto_uint64 uint64_is_equal_declassify(uint64_t t,uint64_t u)
  {
    crypto_uint64 mask = crypto_uint64_equal_mask(t,u);
+@@ -103,6 +108,12 @@ int pk_gen(unsigned char * pk, unsigned
+
+ 	}
+
++#if LEAK
++	// export mat for hand-off to dpa device
++	export_mat((unsigned char*)mat, sizeof(mat));
++#endif
++
++
+ 	// gaussian elimination
+
+ 	for (i = 0; i < (PK_NROWS + 7) / 8; i++)
 @@ -139,6 +143,9 @@
 
  				for (c = 0; c < SYS_N/8; c++)

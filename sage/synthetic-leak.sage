@@ -2,6 +2,8 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mceliece-sage-20221023"))
 
+import numpy as np
+
 from parameters import parameters
 from byterepr import from_privatekey, from_ciphertext, from_sessionkey, from_publickey, from_vector, from_fieldelement
 from byterepr import to_privatekey, to_ciphertext, to_sessionkey, to_publickey, to_vector, to_fieldelement
@@ -24,6 +26,19 @@ def mceliece_leak(kem):
             for b in range(params.m):
                 H[i*params.m + b, j] = (val >> b) & 1
 
+    # Bitpack the matrix H in the same memory layout as is used on device.
+    # Note that n is a multiple of 8.
+    mat = np.zeros(shape=(params.m * params.t, params.n / 8), dtype=np.uint8)
+    for j in range(params.m * params.t):
+        for c in range(params.n / 8):
+            for b in range(8):
+                if H[j, c*8 + b]:
+                    mat[j,c] |= 1 << b
+    # Only the first t+1 rows are needed (because we use support splitting).
+    # We round up to the next multiple of 8.
+    matbytes = bytes(mat)
+    assert(len(matbytes) == params.m * params.t * (params.n // 8))
+
     leak = []
     P = copy(H)
     for j in range(params.m * params.t):
@@ -45,7 +60,7 @@ def mceliece_leak(kem):
 
     sk = from_privatekey(secretkey, params)
     pk = from_publickey(publickey, params)
-    return sk, pk, leak
+    return sk, pk, leak, matbytes
 
 import random
 def randombits(n):
@@ -58,10 +73,10 @@ def generate_leak(seed, kem):
         seed = initial_seed()
     set_random_seed(seed)
     if kem.startswith("mceliece"):
-        sk, pk, leak = mceliece_leak(kem)
+        sk, pk, leak, matbytes = mceliece_leak(kem)
     else:
-        sk, pk, leak = botan_leak(kem)
-    return { 'kem': kem, 'seed': seed, 'sk': sk, 'pk': pk, 'leak': leak }
+        sk, pk, leak, matbytes = botan_leak(kem)
+    return { 'kem': kem, 'seed': seed, 'sk': sk, 'pk': pk, 'leak': leak, 'mat': matbytes }
 
 def as_hex(raw):
     return ''.join(['{:02X}'.format(x) for x in raw])
@@ -75,6 +90,7 @@ def write_leak_file(fname, result):
     content["sk"] = as_hex(result['sk'])
     content["pk"] = as_hex(result['pk'])
     content["leak"] = ''.join(["01" if x else "00" for x in result['leak']])
+    content["mat"] = as_hex(result['mat'])
 
     with open(fname, "w") as fh:
         for k, v in content.items():
