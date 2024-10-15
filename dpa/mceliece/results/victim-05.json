@@ -1,0 +1,1182 @@
+{
+  "leakfile": "results/victim-05.nfo",
+  "kem": "mceliece8192128",
+  "params": {
+    "m": 13,
+    "t": 128,
+    "n": 8192,
+    "q": 8192,
+    "k": 6528
+  },
+  "error": 0.1068,
+  "estimated_error": 0.10703629807692308,
+  "seed": 470189677,
+  "success": true,
+  "elapsed": 86805299,
+  "recovered_columns": 129,
+  "errors_corrected": 22987,
+  "actual_error": 0.10708761926058438,
+  "columns": [
+    {
+      "j": 0,
+      "nr_of_candidates": 67100672,
+      "elapsed": 246850,
+      "distance": 165,
+      "alpha": 2782,
+      "g_of_alpha": 6459,
+      "correct": true
+    },
+    {
+      "j": 1,
+      "nr_of_candidates": 67092481,
+      "elapsed": 167487,
+      "distance": 186,
+      "alpha": 4486,
+      "g_of_alpha": 3020,
+      "correct": true
+    },
+    {
+      "j": 2,
+      "nr_of_candidates": 67084290,
+      "elapsed": 160656,
+      "distance": 171,
+      "alpha": 4241,
+      "g_of_alpha": 4424,
+      "correct": true
+    },
+    {
+      "j": 3,
+      "nr_of_candidates": 67076099,
+      "elapsed": 157387,
+      "distance": 193,
+      "alpha": 6049,
+      "g_of_alpha": 4683,
+      "correct": true
+    },
+    {
+      "j": 4,
+      "nr_of_candidates": 67067908,
+      "elapsed": 171134,
+      "distance": 187,
+      "alpha": 4922,
+      "g_of_alpha": 1581,
+      "correct": true
+    },
+    {
+      "j": 5,
+      "nr_of_candidates": 67059717,
+      "elapsed": 150069,
+      "distance": 209,
+      "alpha": 1713,
+      "g_of_alpha": 4751,
+      "correct": true
+    },
+    {
+      "j": 6,
+      "nr_of_candidates": 67051526,
+      "elapsed": 157046,
+      "distance": 174,
+      "alpha": 1936,
+      "g_of_alpha": 4084,
+      "correct": true
+    },
+    {
+      "j": 7,
+      "nr_of_candidates": 67043335,
+      "elapsed": 160124,
+      "distance": 171,
+      "alpha": 1086,
+      "g_of_alpha": 3915,
+      "correct": true
+    },
+    {
+      "j": 8,
+      "nr_of_candidates": 67035144,
+      "elapsed": 156993,
+      "distance": 193,
+      "alpha": 829,
+      "g_of_alpha": 2021,
+      "correct": true
+    },
+    {
+      "j": 9,
+      "nr_of_candidates": 67026953,
+      "elapsed": 148999,
+      "distance": 186,
+      "alpha": 2652,
+      "g_of_alpha": 1388,
+      "correct": true
+    },
+    {
+      "j": 10,
+      "nr_of_candidates": 67018762,
+      "elapsed": 160762,
+      "distance": 182,
+      "alpha": 1634,
+      "g_of_alpha": 3581,
+      "correct": true
+    },
+    {
+      "j": 11,
+      "nr_of_candidates": 67010571,
+      "elapsed": 154696,
+      "distance": 181,
+      "alpha": 6035,
+      "g_of_alpha": 1938,
+      "correct": true
+    },
+    {
+      "j": 12,
+      "nr_of_candidates": 67002380,
+      "elapsed": 204727,
+      "distance": 172,
+      "alpha": 886,
+      "g_of_alpha": 1094,
+      "correct": true
+    },
+    {
+      "j": 13,
+      "nr_of_candidates": 66994189,
+      "elapsed": 181314,
+      "distance": 179,
+      "alpha": 7171,
+      "g_of_alpha": 3562,
+      "correct": true
+    },
+    {
+      "j": 14,
+      "nr_of_candidates": 66985998,
+      "elapsed": 154020,
+      "distance": 162,
+      "alpha": 728,
+      "g_of_alpha": 3406,
+      "correct": true
+    },
+    {
+      "j": 15,
+      "nr_of_candidates": 66977807,
+      "elapsed": 180684,
+      "distance": 149,
+      "alpha": 1427,
+      "g_of_alpha": 2747,
+      "correct": true
+    },
+    {
+      "j": 16,
+      "nr_of_candidates": 66969616,
+      "elapsed": 157350,
+      "distance": 186,
+      "alpha": 1940,
+      "g_of_alpha": 2279,
+      "correct": true
+    },
+    {
+      "j": 17,
+      "nr_of_candidates": 66961425,
+      "elapsed": 145257,
+      "distance": 185,
+      "alpha": 2966,
+      "g_of_alpha": 5976,
+      "correct": true
+    },
+    {
+      "j": 18,
+      "nr_of_candidates": 66953234,
+      "elapsed": 194329,
+      "distance": 174,
+      "alpha": 4902,
+      "g_of_alpha": 7825,
+      "correct": true
+    },
+    {
+      "j": 19,
+      "nr_of_candidates": 66945043,
+      "elapsed": 160493,
+      "distance": 180,
+      "alpha": 621,
+      "g_of_alpha": 6908,
+      "correct": true
+    },
+    {
+      "j": 20,
+      "nr_of_candidates": 66936852,
+      "elapsed": 145359,
+      "distance": 190,
+      "alpha": 465,
+      "g_of_alpha": 6373,
+      "correct": true
+    },
+    {
+      "j": 21,
+      "nr_of_candidates": 66928661,
+      "elapsed": 154749,
+      "distance": 185,
+      "alpha": 7626,
+      "g_of_alpha": 6628,
+      "correct": true
+    },
+    {
+      "j": 22,
+      "nr_of_candidates": 66920470,
+      "elapsed": 158604,
+      "distance": 195,
+      "alpha": 5507,
+      "g_of_alpha": 6521,
+      "correct": true
+    },
+    {
+      "j": 23,
+      "nr_of_candidates": 66912279,
+      "elapsed": 181469,
+      "distance": 166,
+      "alpha": 2716,
+      "g_of_alpha": 1015,
+      "correct": true
+    },
+    {
+      "j": 24,
+      "nr_of_candidates": 66904088,
+      "elapsed": 158379,
+      "distance": 195,
+      "alpha": 429,
+      "g_of_alpha": 2417,
+      "correct": true
+    },
+    {
+      "j": 25,
+      "nr_of_candidates": 66895897,
+      "elapsed": 152263,
+      "distance": 185,
+      "alpha": 2138,
+      "g_of_alpha": 7757,
+      "correct": true
+    },
+    {
+      "j": 26,
+      "nr_of_candidates": 66887706,
+      "elapsed": 150762,
+      "distance": 200,
+      "alpha": 3114,
+      "g_of_alpha": 5227,
+      "correct": true
+    },
+    {
+      "j": 27,
+      "nr_of_candidates": 66879515,
+      "elapsed": 167759,
+      "distance": 183,
+      "alpha": 6219,
+      "g_of_alpha": 3364,
+      "correct": true
+    },
+    {
+      "j": 28,
+      "nr_of_candidates": 66871324,
+      "elapsed": 168528,
+      "distance": 172,
+      "alpha": 1961,
+      "g_of_alpha": 2595,
+      "correct": true
+    },
+    {
+      "j": 29,
+      "nr_of_candidates": 66863133,
+      "elapsed": 169386,
+      "distance": 161,
+      "alpha": 6402,
+      "g_of_alpha": 8106,
+      "correct": true
+    },
+    {
+      "j": 30,
+      "nr_of_candidates": 66854942,
+      "elapsed": 166681,
+      "distance": 162,
+      "alpha": 1653,
+      "g_of_alpha": 6949,
+      "correct": true
+    },
+    {
+      "j": 31,
+      "nr_of_candidates": 66846751,
+      "elapsed": 185030,
+      "distance": 162,
+      "alpha": 5612,
+      "g_of_alpha": 5732,
+      "correct": true
+    },
+    {
+      "j": 32,
+      "nr_of_candidates": 66838560,
+      "elapsed": 147147,
+      "distance": 198,
+      "alpha": 5518,
+      "g_of_alpha": 7934,
+      "correct": true
+    },
+    {
+      "j": 33,
+      "nr_of_candidates": 66830369,
+      "elapsed": 168009,
+      "distance": 204,
+      "alpha": 7902,
+      "g_of_alpha": 4324,
+      "correct": true
+    },
+    {
+      "j": 34,
+      "nr_of_candidates": 66822178,
+      "elapsed": 151417,
+      "distance": 193,
+      "alpha": 4085,
+      "g_of_alpha": 370,
+      "correct": true
+    },
+    {
+      "j": 35,
+      "nr_of_candidates": 66813987,
+      "elapsed": 154352,
+      "distance": 183,
+      "alpha": 6695,
+      "g_of_alpha": 7555,
+      "correct": true
+    },
+    {
+      "j": 36,
+      "nr_of_candidates": 66805796,
+      "elapsed": 191072,
+      "distance": 165,
+      "alpha": 7716,
+      "g_of_alpha": 2904,
+      "correct": true
+    },
+    {
+      "j": 37,
+      "nr_of_candidates": 66797605,
+      "elapsed": 164813,
+      "distance": 181,
+      "alpha": 4384,
+      "g_of_alpha": 1774,
+      "correct": true
+    },
+    {
+      "j": 38,
+      "nr_of_candidates": 66789414,
+      "elapsed": 172579,
+      "distance": 151,
+      "alpha": 5683,
+      "g_of_alpha": 6260,
+      "correct": true
+    },
+    {
+      "j": 39,
+      "nr_of_candidates": 66781223,
+      "elapsed": 154013,
+      "distance": 151,
+      "alpha": 1120,
+      "g_of_alpha": 7957,
+      "correct": true
+    },
+    {
+      "j": 40,
+      "nr_of_candidates": 66773032,
+      "elapsed": 172032,
+      "distance": 199,
+      "alpha": 4348,
+      "g_of_alpha": 3290,
+      "correct": true
+    },
+    {
+      "j": 41,
+      "nr_of_candidates": 66764841,
+      "elapsed": 161420,
+      "distance": 181,
+      "alpha": 2146,
+      "g_of_alpha": 3786,
+      "correct": true
+    },
+    {
+      "j": 42,
+      "nr_of_candidates": 66756650,
+      "elapsed": 160701,
+      "distance": 190,
+      "alpha": 3658,
+      "g_of_alpha": 3967,
+      "correct": true
+    },
+    {
+      "j": 43,
+      "nr_of_candidates": 66748459,
+      "elapsed": 161603,
+      "distance": 155,
+      "alpha": 370,
+      "g_of_alpha": 4031,
+      "correct": true
+    },
+    {
+      "j": 44,
+      "nr_of_candidates": 66740268,
+      "elapsed": 161158,
+      "distance": 158,
+      "alpha": 2355,
+      "g_of_alpha": 2247,
+      "correct": true
+    },
+    {
+      "j": 45,
+      "nr_of_candidates": 66732077,
+      "elapsed": 171075,
+      "distance": 157,
+      "alpha": 2729,
+      "g_of_alpha": 2056,
+      "correct": true
+    },
+    {
+      "j": 46,
+      "nr_of_candidates": 66723886,
+      "elapsed": 155979,
+      "distance": 160,
+      "alpha": 2815,
+      "g_of_alpha": 3064,
+      "correct": true
+    },
+    {
+      "j": 47,
+      "nr_of_candidates": 66715695,
+      "elapsed": 180518,
+      "distance": 137,
+      "alpha": 6814,
+      "g_of_alpha": 5823,
+      "correct": true
+    },
+    {
+      "j": 48,
+      "nr_of_candidates": 66707504,
+      "elapsed": 149661,
+      "distance": 214,
+      "alpha": 6225,
+      "g_of_alpha": 547,
+      "correct": true
+    },
+    {
+      "j": 49,
+      "nr_of_candidates": 66699313,
+      "elapsed": 159720,
+      "distance": 205,
+      "alpha": 7112,
+      "g_of_alpha": 3283,
+      "correct": true
+    },
+    {
+      "j": 50,
+      "nr_of_candidates": 66691122,
+      "elapsed": 158084,
+      "distance": 191,
+      "alpha": 4229,
+      "g_of_alpha": 7327,
+      "correct": true
+    },
+    {
+      "j": 51,
+      "nr_of_candidates": 66682931,
+      "elapsed": 158905,
+      "distance": 186,
+      "alpha": 2833,
+      "g_of_alpha": 353,
+      "correct": true
+    },
+    {
+      "j": 52,
+      "nr_of_candidates": 66674740,
+      "elapsed": 169424,
+      "distance": 165,
+      "alpha": 1643,
+      "g_of_alpha": 1678,
+      "correct": true
+    },
+    {
+      "j": 53,
+      "nr_of_candidates": 66666549,
+      "elapsed": 154290,
+      "distance": 167,
+      "alpha": 1566,
+      "g_of_alpha": 7918,
+      "correct": true
+    },
+    {
+      "j": 54,
+      "nr_of_candidates": 66658358,
+      "elapsed": 160924,
+      "distance": 181,
+      "alpha": 2391,
+      "g_of_alpha": 4090,
+      "correct": true
+    },
+    {
+      "j": 55,
+      "nr_of_candidates": 66650167,
+      "elapsed": 146825,
+      "distance": 161,
+      "alpha": 6352,
+      "g_of_alpha": 1108,
+      "correct": true
+    },
+    {
+      "j": 56,
+      "nr_of_candidates": 66641976,
+      "elapsed": 149947,
+      "distance": 177,
+      "alpha": 1292,
+      "g_of_alpha": 858,
+      "correct": true
+    },
+    {
+      "j": 57,
+      "nr_of_candidates": 66633785,
+      "elapsed": 154750,
+      "distance": 210,
+      "alpha": 7825,
+      "g_of_alpha": 5664,
+      "correct": true
+    },
+    {
+      "j": 58,
+      "nr_of_candidates": 66625594,
+      "elapsed": 153655,
+      "distance": 178,
+      "alpha": 5974,
+      "g_of_alpha": 1063,
+      "correct": true
+    },
+    {
+      "j": 59,
+      "nr_of_candidates": 66617403,
+      "elapsed": 169128,
+      "distance": 178,
+      "alpha": 582,
+      "g_of_alpha": 1973,
+      "correct": true
+    },
+    {
+      "j": 60,
+      "nr_of_candidates": 66609212,
+      "elapsed": 169286,
+      "distance": 160,
+      "alpha": 6882,
+      "g_of_alpha": 1626,
+      "correct": true
+    },
+    {
+      "j": 61,
+      "nr_of_candidates": 66601021,
+      "elapsed": 171170,
+      "distance": 175,
+      "alpha": 7298,
+      "g_of_alpha": 318,
+      "correct": true
+    },
+    {
+      "j": 62,
+      "nr_of_candidates": 66592830,
+      "elapsed": 160946,
+      "distance": 157,
+      "alpha": 947,
+      "g_of_alpha": 2927,
+      "correct": true
+    },
+    {
+      "j": 63,
+      "nr_of_candidates": 66584639,
+      "elapsed": 160477,
+      "distance": 164,
+      "alpha": 2708,
+      "g_of_alpha": 7450,
+      "correct": true
+    },
+    {
+      "j": 64,
+      "nr_of_candidates": 66576448,
+      "elapsed": 160391,
+      "distance": 198,
+      "alpha": 2807,
+      "g_of_alpha": 6769,
+      "correct": true
+    },
+    {
+      "j": 65,
+      "nr_of_candidates": 66568257,
+      "elapsed": 155903,
+      "distance": 186,
+      "alpha": 5362,
+      "g_of_alpha": 4229,
+      "correct": true
+    },
+    {
+      "j": 66,
+      "nr_of_candidates": 66560066,
+      "elapsed": 166075,
+      "distance": 192,
+      "alpha": 2084,
+      "g_of_alpha": 3775,
+      "correct": true
+    },
+    {
+      "j": 67,
+      "nr_of_candidates": 66551875,
+      "elapsed": 173887,
+      "distance": 178,
+      "alpha": 4274,
+      "g_of_alpha": 1755,
+      "correct": true
+    },
+    {
+      "j": 68,
+      "nr_of_candidates": 66543684,
+      "elapsed": 193736,
+      "distance": 150,
+      "alpha": 384,
+      "g_of_alpha": 3024,
+      "correct": true
+    },
+    {
+      "j": 69,
+      "nr_of_candidates": 66535493,
+      "elapsed": 156617,
+      "distance": 178,
+      "alpha": 138,
+      "g_of_alpha": 7286,
+      "correct": true
+    },
+    {
+      "j": 70,
+      "nr_of_candidates": 66527302,
+      "elapsed": 161952,
+      "distance": 173,
+      "alpha": 2933,
+      "g_of_alpha": 287,
+      "correct": true
+    },
+    {
+      "j": 71,
+      "nr_of_candidates": 66519111,
+      "elapsed": 204801,
+      "distance": 184,
+      "alpha": 2768,
+      "g_of_alpha": 3759,
+      "correct": true
+    },
+    {
+      "j": 72,
+      "nr_of_candidates": 66510920,
+      "elapsed": 170284,
+      "distance": 193,
+      "alpha": 6357,
+      "g_of_alpha": 241,
+      "correct": true
+    },
+    {
+      "j": 73,
+      "nr_of_candidates": 66502729,
+      "elapsed": 184242,
+      "distance": 188,
+      "alpha": 1088,
+      "g_of_alpha": 4807,
+      "correct": true
+    },
+    {
+      "j": 74,
+      "nr_of_candidates": 66494538,
+      "elapsed": 148801,
+      "distance": 174,
+      "alpha": 1572,
+      "g_of_alpha": 6003,
+      "correct": true
+    },
+    {
+      "j": 75,
+      "nr_of_candidates": 66486347,
+      "elapsed": 154784,
+      "distance": 174,
+      "alpha": 7614,
+      "g_of_alpha": 4997,
+      "correct": true
+    },
+    {
+      "j": 76,
+      "nr_of_candidates": 66478156,
+      "elapsed": 163437,
+      "distance": 186,
+      "alpha": 3659,
+      "g_of_alpha": 3844,
+      "correct": true
+    },
+    {
+      "j": 77,
+      "nr_of_candidates": 66469965,
+      "elapsed": 159029,
+      "distance": 147,
+      "alpha": 4073,
+      "g_of_alpha": 332,
+      "correct": true
+    },
+    {
+      "j": 78,
+      "nr_of_candidates": 66461774,
+      "elapsed": 159435,
+      "distance": 183,
+      "alpha": 4751,
+      "g_of_alpha": 1029,
+      "correct": true
+    },
+    {
+      "j": 79,
+      "nr_of_candidates": 66453583,
+      "elapsed": 167427,
+      "distance": 131,
+      "alpha": 1685,
+      "g_of_alpha": 7203,
+      "correct": true
+    },
+    {
+      "j": 80,
+      "nr_of_candidates": 66445392,
+      "elapsed": 143580,
+      "distance": 200,
+      "alpha": 1160,
+      "g_of_alpha": 320,
+      "correct": true
+    },
+    {
+      "j": 81,
+      "nr_of_candidates": 66437201,
+      "elapsed": 163516,
+      "distance": 175,
+      "alpha": 6440,
+      "g_of_alpha": 3634,
+      "correct": true
+    },
+    {
+      "j": 82,
+      "nr_of_candidates": 66429010,
+      "elapsed": 155391,
+      "distance": 204,
+      "alpha": 7422,
+      "g_of_alpha": 64,
+      "correct": true
+    },
+    {
+      "j": 83,
+      "nr_of_candidates": 66420819,
+      "elapsed": 147750,
+      "distance": 171,
+      "alpha": 7932,
+      "g_of_alpha": 2153,
+      "correct": true
+    },
+    {
+      "j": 84,
+      "nr_of_candidates": 66412628,
+      "elapsed": 141537,
+      "distance": 192,
+      "alpha": 5851,
+      "g_of_alpha": 4594,
+      "correct": true
+    },
+    {
+      "j": 85,
+      "nr_of_candidates": 66404437,
+      "elapsed": 157269,
+      "distance": 179,
+      "alpha": 3171,
+      "g_of_alpha": 2589,
+      "correct": true
+    },
+    {
+      "j": 86,
+      "nr_of_candidates": 66396246,
+      "elapsed": 155114,
+      "distance": 180,
+      "alpha": 291,
+      "g_of_alpha": 2735,
+      "correct": true
+    },
+    {
+      "j": 87,
+      "nr_of_candidates": 66388055,
+      "elapsed": 170727,
+      "distance": 158,
+      "alpha": 7596,
+      "g_of_alpha": 7189,
+      "correct": true
+    },
+    {
+      "j": 88,
+      "nr_of_candidates": 66379864,
+      "elapsed": 165741,
+      "distance": 192,
+      "alpha": 1607,
+      "g_of_alpha": 5045,
+      "correct": true
+    },
+    {
+      "j": 89,
+      "nr_of_candidates": 66371673,
+      "elapsed": 156855,
+      "distance": 180,
+      "alpha": 7580,
+      "g_of_alpha": 7447,
+      "correct": true
+    },
+    {
+      "j": 90,
+      "nr_of_candidates": 66363482,
+      "elapsed": 146039,
+      "distance": 203,
+      "alpha": 3489,
+      "g_of_alpha": 7030,
+      "correct": true
+    },
+    {
+      "j": 91,
+      "nr_of_candidates": 66355291,
+      "elapsed": 142660,
+      "distance": 191,
+      "alpha": 2969,
+      "g_of_alpha": 5567,
+      "correct": true
+    },
+    {
+      "j": 92,
+      "nr_of_candidates": 66347100,
+      "elapsed": 168464,
+      "distance": 165,
+      "alpha": 4193,
+      "g_of_alpha": 4290,
+      "correct": true
+    },
+    {
+      "j": 93,
+      "nr_of_candidates": 66338909,
+      "elapsed": 156101,
+      "distance": 171,
+      "alpha": 6241,
+      "g_of_alpha": 7730,
+      "correct": true
+    },
+    {
+      "j": 94,
+      "nr_of_candidates": 66330718,
+      "elapsed": 173470,
+      "distance": 167,
+      "alpha": 3532,
+      "g_of_alpha": 5310,
+      "correct": true
+    },
+    {
+      "j": 95,
+      "nr_of_candidates": 66322527,
+      "elapsed": 192688,
+      "distance": 164,
+      "alpha": 7294,
+      "g_of_alpha": 6466,
+      "correct": true
+    },
+    {
+      "j": 96,
+      "nr_of_candidates": 66314336,
+      "elapsed": 156553,
+      "distance": 191,
+      "alpha": 8074,
+      "g_of_alpha": 206,
+      "correct": true
+    },
+    {
+      "j": 97,
+      "nr_of_candidates": 66306145,
+      "elapsed": 147638,
+      "distance": 197,
+      "alpha": 5286,
+      "g_of_alpha": 940,
+      "correct": true
+    },
+    {
+      "j": 98,
+      "nr_of_candidates": 66297954,
+      "elapsed": 155689,
+      "distance": 215,
+      "alpha": 6064,
+      "g_of_alpha": 3046,
+      "correct": true
+    },
+    {
+      "j": 99,
+      "nr_of_candidates": 66289763,
+      "elapsed": 154946,
+      "distance": 179,
+      "alpha": 148,
+      "g_of_alpha": 4476,
+      "correct": true
+    },
+    {
+      "j": 100,
+      "nr_of_candidates": 66281572,
+      "elapsed": 172319,
+      "distance": 173,
+      "alpha": 3712,
+      "g_of_alpha": 972,
+      "correct": true
+    },
+    {
+      "j": 101,
+      "nr_of_candidates": 66273381,
+      "elapsed": 155233,
+      "distance": 177,
+      "alpha": 7305,
+      "g_of_alpha": 5482,
+      "correct": true
+    },
+    {
+      "j": 102,
+      "nr_of_candidates": 66265190,
+      "elapsed": 154159,
+      "distance": 158,
+      "alpha": 4126,
+      "g_of_alpha": 1470,
+      "correct": true
+    },
+    {
+      "j": 103,
+      "nr_of_candidates": 66256999,
+      "elapsed": 182504,
+      "distance": 178,
+      "alpha": 1639,
+      "g_of_alpha": 1195,
+      "correct": true
+    },
+    {
+      "j": 104,
+      "nr_of_candidates": 66248808,
+      "elapsed": 170351,
+      "distance": 178,
+      "alpha": 5817,
+      "g_of_alpha": 3672,
+      "correct": true
+    },
+    {
+      "j": 105,
+      "nr_of_candidates": 66240617,
+      "elapsed": 176069,
+      "distance": 192,
+      "alpha": 6127,
+      "g_of_alpha": 3478,
+      "correct": true
+    },
+    {
+      "j": 106,
+      "nr_of_candidates": 66232426,
+      "elapsed": 154667,
+      "distance": 206,
+      "alpha": 3195,
+      "g_of_alpha": 3830,
+      "correct": true
+    },
+    {
+      "j": 107,
+      "nr_of_candidates": 66224235,
+      "elapsed": 144441,
+      "distance": 190,
+      "alpha": 1222,
+      "g_of_alpha": 6172,
+      "correct": true
+    },
+    {
+      "j": 108,
+      "nr_of_candidates": 66216044,
+      "elapsed": 146993,
+      "distance": 194,
+      "alpha": 1387,
+      "g_of_alpha": 5976,
+      "correct": true
+    },
+    {
+      "j": 109,
+      "nr_of_candidates": 66207853,
+      "elapsed": 177113,
+      "distance": 172,
+      "alpha": 1694,
+      "g_of_alpha": 3232,
+      "correct": true
+    },
+    {
+      "j": 110,
+      "nr_of_candidates": 66199662,
+      "elapsed": 178554,
+      "distance": 159,
+      "alpha": 6239,
+      "g_of_alpha": 6153,
+      "correct": true
+    },
+    {
+      "j": 111,
+      "nr_of_candidates": 66191471,
+      "elapsed": 162110,
+      "distance": 145,
+      "alpha": 3805,
+      "g_of_alpha": 6348,
+      "correct": true
+    },
+    {
+      "j": 112,
+      "nr_of_candidates": 66183280,
+      "elapsed": 172272,
+      "distance": 173,
+      "alpha": 3600,
+      "g_of_alpha": 1180,
+      "correct": true
+    },
+    {
+      "j": 113,
+      "nr_of_candidates": 66175089,
+      "elapsed": 148415,
+      "distance": 177,
+      "alpha": 617,
+      "g_of_alpha": 3653,
+      "correct": true
+    },
+    {
+      "j": 114,
+      "nr_of_candidates": 66166898,
+      "elapsed": 145647,
+      "distance": 183,
+      "alpha": 1118,
+      "g_of_alpha": 584,
+      "correct": true
+    },
+    {
+      "j": 115,
+      "nr_of_candidates": 66158707,
+      "elapsed": 142615,
+      "distance": 177,
+      "alpha": 771,
+      "g_of_alpha": 6833,
+      "correct": true
+    },
+    {
+      "j": 116,
+      "nr_of_candidates": 66150516,
+      "elapsed": 173739,
+      "distance": 176,
+      "alpha": 5834,
+      "g_of_alpha": 7731,
+      "correct": true
+    },
+    {
+      "j": 117,
+      "nr_of_candidates": 66142325,
+      "elapsed": 175777,
+      "distance": 168,
+      "alpha": 3995,
+      "g_of_alpha": 4185,
+      "correct": true
+    },
+    {
+      "j": 118,
+      "nr_of_candidates": 66134134,
+      "elapsed": 143937,
+      "distance": 157,
+      "alpha": 215,
+      "g_of_alpha": 6857,
+      "correct": true
+    },
+    {
+      "j": 119,
+      "nr_of_candidates": 66125943,
+      "elapsed": 156941,
+      "distance": 149,
+      "alpha": 706,
+      "g_of_alpha": 4891,
+      "correct": true
+    },
+    {
+      "j": 120,
+      "nr_of_candidates": 66117752,
+      "elapsed": 168631,
+      "distance": 202,
+      "alpha": 3909,
+      "g_of_alpha": 3167,
+      "correct": true
+    },
+    {
+      "j": 121,
+      "nr_of_candidates": 66109561,
+      "elapsed": 152805,
+      "distance": 173,
+      "alpha": 1621,
+      "g_of_alpha": 3860,
+      "correct": true
+    },
+    {
+      "j": 122,
+      "nr_of_candidates": 66101370,
+      "elapsed": 148345,
+      "distance": 189,
+      "alpha": 4350,
+      "g_of_alpha": 983,
+      "correct": true
+    },
+    {
+      "j": 123,
+      "nr_of_candidates": 66093179,
+      "elapsed": 178007,
+      "distance": 183,
+      "alpha": 5093,
+      "g_of_alpha": 283,
+      "correct": true
+    },
+    {
+      "j": 124,
+      "nr_of_candidates": 66084988,
+      "elapsed": 167592,
+      "distance": 184,
+      "alpha": 472,
+      "g_of_alpha": 438,
+      "correct": true
+    },
+    {
+      "j": 125,
+      "nr_of_candidates": 66076797,
+      "elapsed": 153718,
+      "distance": 190,
+      "alpha": 2623,
+      "g_of_alpha": 3007,
+      "correct": true
+    },
+    {
+      "j": 126,
+      "nr_of_candidates": 66068606,
+      "elapsed": 144124,
+      "distance": 163,
+      "alpha": 5392,
+      "g_of_alpha": 240,
+      "correct": true
+    },
+    {
+      "j": 127,
+      "nr_of_candidates": 66060415,
+      "elapsed": 143967,
+      "distance": 174,
+      "alpha": 1987,
+      "g_of_alpha": 4389,
+      "correct": true
+    },
+    {
+      "j": 128,
+      "nr_of_candidates": 66052224,
+      "elapsed": 162974,
+      "distance": 185,
+      "alpha": 7900,
+      "g_of_alpha": 5939,
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+2024-10-08 20:50:20,484:INFO :mceliece:loading McEliece parameters
+2024-10-08 20:50:24,467:INFO :mceliece:attacking key victim 0
+2024-10-08 20:50:32,021:INFO :mceliece:lagrange interpolation...
+2024-10-08 20:50:48,531:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 20:51:05,582:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 20:51:07,048:INFO :mceliece:starting support splitting
+2024-10-08 20:55:27,711:INFO :mceliece:Sorting alphas
+2024-10-08 20:55:42,069:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 20:55:42,071:INFO :mceliece:attacking key victim 1
+2024-10-08 20:55:49,332:INFO :mceliece:lagrange interpolation...
+2024-10-08 20:56:05,863:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 20:56:25,971:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 20:56:27,424:INFO :mceliece:starting support splitting
+2024-10-08 20:57:45,095:INFO :mceliece:Sorting alphas
+2024-10-08 20:57:59,533:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 20:57:59,536:INFO :mceliece:attacking key victim 2
+2024-10-08 20:58:06,818:INFO :mceliece:lagrange interpolation...
+2024-10-08 20:58:23,346:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 20:58:44,866:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 20:58:46,342:INFO :mceliece:starting support splitting
+2024-10-08 21:03:13,539:INFO :mceliece:Sorting alphas
+2024-10-08 21:03:27,896:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 21:03:27,898:INFO :mceliece:attacking key victim 3
+2024-10-08 21:03:35,246:INFO :mceliece:lagrange interpolation...
+2024-10-08 21:03:51,721:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 21:04:15,212:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 21:04:16,704:INFO :mceliece:starting support splitting
+2024-10-08 21:05:35,230:INFO :mceliece:Sorting alphas
+2024-10-08 21:05:49,481:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 21:05:49,483:INFO :mceliece:attacking key victim 4
+2024-10-08 21:05:56,819:INFO :mceliece:lagrange interpolation...
+2024-10-08 21:06:13,284:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 21:06:36,380:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 21:06:37,748:INFO :mceliece:starting support splitting
+2024-10-08 21:10:27,355:INFO :mceliece:Sorting alphas
+2024-10-08 21:10:41,737:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 21:10:41,740:INFO :mceliece:attacking key victim 5
+2024-10-08 21:10:48,939:INFO :mceliece:lagrange interpolation...
+2024-10-08 21:11:05,441:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 21:11:28,798:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 21:11:30,270:INFO :mceliece:starting support splitting
+2024-10-08 21:13:04,901:INFO :mceliece:Sorting alphas
+2024-10-08 21:13:19,355:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 21:13:19,359:INFO :mceliece:attacking key victim 6
+2024-10-08 21:13:26,674:INFO :mceliece:lagrange interpolation...
+2024-10-08 21:13:43,202:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 21:14:04,656:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 21:14:06,124:INFO :mceliece:starting support splitting
+2024-10-08 21:18:15,089:INFO :mceliece:Sorting alphas
+2024-10-08 21:18:29,566:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 21:18:29,569:INFO :mceliece:attacking key victim 7
+2024-10-08 21:18:36,830:INFO :mceliece:lagrange interpolation...
+2024-10-08 21:18:53,317:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 21:19:16,710:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 21:19:18,220:INFO :mceliece:starting support splitting
+2024-10-08 21:23:06,317:INFO :mceliece:Sorting alphas
+2024-10-08 21:23:20,774:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 21:23:20,777:INFO :mceliece:attacking key victim 8
+2024-10-08 21:23:28,054:INFO :mceliece:lagrange interpolation...
+2024-10-08 21:23:44,547:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 21:24:06,910:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 21:24:08,274:INFO :mceliece:starting support splitting
+2024-10-08 21:25:26,237:INFO :mceliece:Sorting alphas
+2024-10-08 21:25:40,724:INFO :mceliece:Recovered secret key succesfully. PASS
+2024-10-08 21:25:40,727:INFO :mceliece:attacking key victim 9
+2024-10-08 21:25:48,011:INFO :mceliece:lagrange interpolation...
+2024-10-08 21:26:04,546:INFO :mceliece:generating parity check matrix of goppa code
+2024-10-08 21:26:26,679:INFO :mceliece:bringing parity check matrix into systematic form
+2024-10-08 21:26:28,150:INFO :mceliece:starting support splitting
+2024-10-08 21:30:39,288:INFO :mceliece:Sorting alphas
+2024-10-08 21:30:53,603:INFO :mceliece:Recovered secret key succesfully. PASS

@@ -1,0 +1,14 @@
+2024-07-29 17:30:18,278:INFO :mceliece:reading trace data
+2024-07-29 17:32:33,478:INFO :mceliece:generating statistics for seedr
+2024-07-29 17:33:07,122:INFO :mceliece:statistics for class 0
+2024-07-29 17:33:07,123:INFO :mceliece:class 0 count: 499.9555 +- 15.8433
+2024-07-29 17:33:07,124:INFO :mceliece:class 0 mean: -0.0847 +- 0.0015
+2024-07-29 17:33:07,124:INFO :mceliece:class 0 std: 0.0133 +- 0.0007
+2024-07-29 17:33:07,125:INFO :mceliece:statistics for class 1
+2024-07-29 17:33:07,125:INFO :mceliece:class 1 count: 500.0445 +- 15.8433
+2024-07-29 17:33:07,125:INFO :mceliece:class 1 mean: -0.1176 +- 0.0014
+2024-07-29 17:33:07,126:INFO :mceliece:class 1 std: 0.0133 +- 0.0007
+2024-07-29 17:33:07,126:INFO :mceliece:SNR(dB): 17.7394 +- 0.4332
+2024-07-29 17:33:07,127:INFO :mceliece:diff of means is 0.0329, sum of std is 0.0266
+2024-07-29 17:33:07,127:INFO :mceliece:diff of means is larger than sum of std, good!
+2024-07-29 17:33:07,127:INFO :mceliece:z-value: 1.2343, estimated error rate: 0.1085

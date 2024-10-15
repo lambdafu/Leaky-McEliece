@@ -1,0 +1,44 @@
+2024-07-30 14:16:42,659:INFO :mceliece:attacking key seedv/0
+2024-07-30 14:16:45,402:INFO :mceliece:leak bit error rate = 0.1065
+2024-07-30 14:16:45,403:INFO :mceliece:true error rate tau = 0.1067
+2024-07-30 14:16:45,409:INFO :mceliece:SNR: 17.8218
+2024-07-30 14:18:23,614:INFO :mceliece:attacking key seedv/1
+2024-07-30 14:18:26,344:INFO :mceliece:leak bit error rate = 0.1077
+2024-07-30 14:18:26,344:INFO :mceliece:true error rate tau = 0.1079
+2024-07-30 14:18:26,350:INFO :mceliece:SNR: 17.7540
+2024-07-30 14:19:59,931:INFO :mceliece:attacking key seedv/2
+2024-07-30 14:20:02,609:INFO :mceliece:leak bit error rate = 0.1088
+2024-07-30 14:20:02,609:INFO :mceliece:true error rate tau = 0.1090
+2024-07-30 14:20:02,615:INFO :mceliece:SNR: 17.7640
+2024-07-30 14:21:34,483:INFO :mceliece:attacking key seedv/3
+2024-07-30 14:21:37,231:INFO :mceliece:leak bit error rate = 0.1073
+2024-07-30 14:21:37,231:INFO :mceliece:true error rate tau = 0.1076
+2024-07-30 14:21:37,237:INFO :mceliece:SNR: 17.7890
+2024-07-30 14:23:11,038:INFO :mceliece:attacking key seedv/4
+2024-07-30 14:23:13,733:INFO :mceliece:leak bit error rate = 0.1087
+2024-07-30 14:23:13,733:INFO :mceliece:true error rate tau = 0.1089
+2024-07-30 14:23:13,739:INFO :mceliece:SNR: 17.7558
+2024-07-30 14:24:45,468:INFO :mceliece:attacking key seedv/5
+2024-07-30 14:24:48,148:INFO :mceliece:leak bit error rate = 0.1068
+2024-07-30 14:24:48,148:INFO :mceliece:true error rate tau = 0.1071
+2024-07-30 14:24:48,154:INFO :mceliece:SNR: 17.8144
+2024-07-30 14:26:18,811:INFO :mceliece:attacking key seedv/6
+2024-07-30 14:26:21,438:INFO :mceliece:leak bit error rate = 0.1083
+2024-07-30 14:26:21,439:INFO :mceliece:true error rate tau = 0.1085
+2024-07-30 14:26:21,444:INFO :mceliece:SNR: 17.7447
+2024-07-30 14:27:52,536:INFO :mceliece:attacking key seedv/7
+2024-07-30 14:27:55,252:INFO :mceliece:leak bit error rate = 0.1070
+2024-07-30 14:27:55,252:INFO :mceliece:true error rate tau = 0.1072
+2024-07-30 14:27:55,258:INFO :mceliece:SNR: 17.7802
+2024-07-30 14:29:28,080:INFO :mceliece:attacking key seedv/8
+2024-07-30 14:29:30,754:INFO :mceliece:leak bit error rate = 0.1090
+2024-07-30 14:29:30,754:INFO :mceliece:true error rate tau = 0.1093
+2024-07-30 14:29:30,760:INFO :mceliece:SNR: 17.7528
+2024-07-30 14:31:03,555:INFO :mceliece:attacking key seedv/9
+2024-07-30 14:31:06,174:INFO :mceliece:leak bit error rate = 0.1099
+2024-07-30 14:31:06,174:INFO :mceliece:true error rate tau = 0.1101
+2024-07-30 14:31:06,180:INFO :mceliece:SNR: 17.7077
+2024-07-30 14:32:37,800:INFO :mceliece:SUMMARY
+2024-07-30 14:32:37,800:INFO :mceliece:success rate: 1.0000 (10 out of 10)
+2024-07-30 14:32:37,800:INFO :mceliece:tau: 0.1080 +- 0.0011
+2024-07-30 14:32:37,800:INFO :mceliece:SNR: 17.7684 +- 0.0323

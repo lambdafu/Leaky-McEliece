@@ -1,0 +1,919 @@
+[2024-07-30 14:20:05.813] [info] Welcome to Stockfish!
+[2024-07-30 14:20:05.814] [info] Using 256 threads for parallel processing.
+Using seed: 3839068813
+[2024-07-30 14:20:13.476] [info] Loading precomputed candidate matrix.
+[2024-07-30 14:20:19.242] [info] Parsing public key in results/victim-02.nfo
+Parsing leak in results/victim-02.nfo
+Leak file is short, will fill in remaining bits by random data.Leak file contains at least 129 columns
+[2024-07-30 14:20:19.500] [info] Estimated error rate is 0.10903509615384614
+[2024-07-30 14:20:19.500] [info] Recovering column 0...
+[2024-07-30 14:20:19.500] [info] Target at column 0 taken from leak data.
+[2024-07-30 14:20:19.760] [info] Found 0: [FindResult: alpha=z^11 + z^10 + z^9 + z^7 + z^2 + 1 and g(alpha)=z^9 + z^7 + z^6 + z^4 + z^3 + 1 with distance 184 at index 5967493]
+[2024-07-30 14:20:19.760] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:19.760] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:19.799] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:19.799] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:20.179] [info] Recovering column 1...
+[2024-07-30 14:20:20.179] [info] Target at column 1 taken from leak data.
+[2024-07-30 14:20:20.359] [info] Found 1: [FindResult: alpha=z^12 + z^9 + z^6 + z^5 + z^3 + z + 1 and g(alpha)=z^10 + z^7 + z^5 + z^2 + z with distance 212 at index 9745003]
+[2024-07-30 14:20:20.359] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:20.359] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:20.395] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:20.395] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:20.844] [info] Recovering column 2...
+[2024-07-30 14:20:20.844] [info] Target at column 2 taken from leak data.
+[2024-07-30 14:20:21.009] [info] Found 2: [FindResult: alpha=z^9 + z^4 + z^3 + z^2 and g(alpha)=z^10 + z^7 + z^3 + z^2 + 1 with distance 174 at index 9536028]
+[2024-07-30 14:20:21.009] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:21.009] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:21.035] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:21.035] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:21.365] [info] Recovering column 3...
+[2024-07-30 14:20:21.365] [info] Target at column 3 taken from leak data.
+[2024-07-30 14:20:21.522] [info] Found 3: [FindResult: alpha=z^11 + z^10 + z^8 + z^6 + z^5 + z^4 + 1 and g(alpha)=z^9 + z^8 + z^6 + z^5 + z^3 with distance 159 at index 7138673]
+[2024-07-30 14:20:21.524] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:21.524] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:21.555] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:21.555] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:21.943] [info] Recovering column 4...
+[2024-07-30 14:20:21.943] [info] Target at column 4 taken from leak data.
+[2024-07-30 14:20:22.100] [info] Found 4: [FindResult: alpha=z^11 + z^6 + z^5 + z^3 and g(alpha)=z^12 + z^10 + z^8 + z^6 + z^5 + z^4 + z^3 + z^2 + z + 1 with distance 202 at index 45074536]
+[2024-07-30 14:20:22.100] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:22.100] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:22.127] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:22.127] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:22.539] [info] Recovering column 5...
+[2024-07-30 14:20:22.539] [info] Target at column 5 taken from leak data.
+[2024-07-30 14:20:22.697] [info] Found 5: [FindResult: alpha=z^11 + z^10 + z^9 + z^7 + z^5 + z^4 + z^2 + z and g(alpha)=z^12 + z^10 + z^8 + z^5 + z^4 + z^3 + z^2 with distance 193 at index 44527286]
+[2024-07-30 14:20:22.697] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:22.698] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:22.724] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:22.724] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:23.089] [info] Recovering column 6...
+[2024-07-30 14:20:23.089] [info] Target at column 6 taken from leak data.
+[2024-07-30 14:20:23.271] [info] Found 6: [FindResult: alpha=z^12 + z^8 + z^7 + z^5 + z^4 + z^3 + z^2 + z and g(alpha)=z^12 + z^10 + z^9 + z^7 + z^4 + z^2 with distance 174 at index 47346110]
+[2024-07-30 14:20:23.271] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:23.271] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:23.299] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:23.299] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:23.649] [info] Recovering column 7...
+[2024-07-30 14:20:23.649] [info] Target at column 7 taken from leak data.
+[2024-07-30 14:20:23.835] [info] Found 7: [FindResult: alpha=z^12 + z^11 + z^10 + z^7 + z^4 + z^3 + z^2 and g(alpha)=z^11 + z^9 + z^8 with distance 182 at index 23067804]
+[2024-07-30 14:20:23.835] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:23.835] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:23.865] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:23.865] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:24.206] [info] Recovering column 8...
+[2024-07-30 14:20:24.206] [info] Target at column 8 taken from leak data.
+[2024-07-30 14:20:24.387] [info] Found 8: [FindResult: alpha=z^12 + z^11 + z^10 + z^9 + z^6 + 1 and g(alpha)=z^12 + z^8 + z^7 + z^6 + z^5 + z^2 + 1 with distance 186 at index 37527105]
+[2024-07-30 14:20:24.387] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:24.387] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:24.419] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:24.419] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:24.728] [info] Recovering column 9...
+[2024-07-30 14:20:24.728] [info] Target at column 9 taken from leak data.
+[2024-07-30 14:20:24.902] [info] Found 9: [FindResult: alpha=z^12 + z^8 + z^7 + z^6 + z^4 + z^2 + 1 and g(alpha)=z^11 + z^10 + z^9 + z^8 + z^5 + z^3 + z^2 with distance 174 at index 31814101]
+[2024-07-30 14:20:24.902] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:24.902] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:24.927] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:24.928] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:25.248] [info] Recovering column 10...
+[2024-07-30 14:20:25.248] [info] Target at column 10 taken from leak data.
+[2024-07-30 14:20:25.431] [info] Found 10: [FindResult: alpha=z^12 + z^11 + z^9 + z^7 + z^6 + z^3 + z and g(alpha)=z^11 + z^8 + z^6 + z^4 + 1 with distance 202 at index 19536586]
+[2024-07-30 14:20:25.431] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:25.431] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:25.471] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:25.471] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:26.023] [info] Recovering column 11...
+[2024-07-30 14:20:26.023] [info] Target at column 11 taken from leak data.
+[2024-07-30 14:20:26.216] [info] Found 11: [FindResult: alpha=z^10 + z^9 + z^8 + z^7 + z^5 and g(alpha)=z^11 + z^10 + z^9 + z^8 + z^7 + z^6 + z^5 + z^2 with distance 173 at index 33318816]
+[2024-07-30 14:20:26.216] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:26.217] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:26.244] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:26.244] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:26.540] [info] Recovering column 12...
+[2024-07-30 14:20:26.540] [info] Target at column 12 taken from leak data.
+[2024-07-30 14:20:26.746] [info] Found 12: [FindResult: alpha=z^12 + z^11 + z^9 + z^8 + z^6 + z^5 + z^4 + z^2 and g(alpha)=z^11 + z^10 + z^2 + z + 1 with distance 182 at index 25222004]
+[2024-07-30 14:20:26.746] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:26.746] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:26.777] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:26.777] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:27.069] [info] Recovering column 13...
+[2024-07-30 14:20:27.069] [info] Target at column 13 taken from leak data.
+[2024-07-30 14:20:27.248] [info] Found 13: [FindResult: alpha=z^12 + z^11 + z^10 + z^9 + z^8 + z^7 + z^6 + z^4 + z^3 + z^2 + z and g(alpha)=z^9 + z^8 + z^7 + z^2 + 1 with distance 149 at index 7380958]
+[2024-07-30 14:20:27.248] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:27.248] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:27.292] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:27.292] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:27.663] [info] Recovering column 14...
+[2024-07-30 14:20:27.663] [info] Target at column 14 taken from leak data.
+[2024-07-30 14:20:27.806] [info] Found 14: [FindResult: alpha=z^12 + z^10 + z^6 + z^5 + z^4 + 1 and g(alpha)=z^9 + z^7 + z^4 + z^3 with distance 173 at index 5436529]
+[2024-07-30 14:20:27.806] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:27.806] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:27.835] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:27.835] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:28.138] [info] Recovering column 15...
+[2024-07-30 14:20:28.138] [info] Target at column 15 taken from leak data.
+[2024-07-30 14:20:28.295] [info] Found 15: [FindResult: alpha=z^12 + z^8 + z^6 + z^5 + z^4 + z^3 + z and g(alpha)=z^11 + z^10 + z^5 + z^4 + z^2 + 1 with distance 162 at index 25596282]
+[2024-07-30 14:20:28.295] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:28.295] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:28.321] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:28.321] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:28.596] [info] Recovering column 16...
+[2024-07-30 14:20:28.596] [info] Target at column 16 taken from leak data.
+[2024-07-30 14:20:28.769] [info] Found 16: [FindResult: alpha=z^11 + z^10 + z^9 + z^8 + z^6 + z^5 + z^4 + z^2 + 1 and g(alpha)=z^5 with distance 207 at index 257909]
+[2024-07-30 14:20:28.769] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:28.769] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:28.799] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:28.799] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:29.094] [info] Recovering column 17...
+[2024-07-30 14:20:29.094] [info] Target at column 17 taken from leak data.
+[2024-07-30 14:20:29.252] [info] Found 17: [FindResult: alpha=z^8 + z^6 + z^4 + z^3 + z and g(alpha)=z^11 + z^9 + z^8 + z^7 + z^5 + z^4 + z^3 + z + 1 with distance 186 at index 24592730]
+[2024-07-30 14:20:29.252] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:29.252] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:29.283] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:29.283] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:29.566] [info] Recovering column 18...
+[2024-07-30 14:20:29.566] [info] Target at column 18 taken from leak data.
+[2024-07-30 14:20:29.735] [info] Found 18: [FindResult: alpha=z^12 and g(alpha)=z^9 + z^8 + z^6 + z^5 + z^4 + z^2 + 1 with distance 180 at index 7245824]
+[2024-07-30 14:20:29.735] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:29.735] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:29.762] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:29.762] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:30.073] [info] Recovering column 19...
+[2024-07-30 14:20:30.073] [info] Target at column 19 taken from leak data.
+[2024-07-30 14:20:30.242] [info] Found 19: [FindResult: alpha=z^11 + z^8 + z^7 + z^3 + z and g(alpha)=z^12 + z^7 + z^6 + z^3 + 1 with distance 179 at index 35195274]
+[2024-07-30 14:20:30.242] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:30.242] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:30.269] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:30.269] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:30.634] [info] Recovering column 20...
+[2024-07-30 14:20:30.634] [info] Target at column 20 taken from leak data.
+[2024-07-30 14:20:30.790] [info] Found 20: [FindResult: alpha=z^11 + z^10 + z^8 + z^5 + z^4 + z^3 + z^2 + z + 1 and g(alpha)=z^11 + z^10 + z^4 + z + 1 with distance 193 at index 25316671]
+[2024-07-30 14:20:30.790] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:30.790] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:30.831] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:30.831] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:31.141] [info] Recovering column 21...
+[2024-07-30 14:20:31.141] [info] Target at column 21 taken from leak data.
+[2024-07-30 14:20:31.320] [info] Found 21: [FindResult: alpha=z^12 + z^10 + z^9 + z^8 + z^7 + z^6 + z^5 + z^4 + z^3 + 1 and g(alpha)=z^12 + z^10 + z^9 + z^7 + z^6 + z^4 + z^2 + 1 with distance 183 at index 47880185]
+[2024-07-30 14:20:31.320] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:31.320] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:31.346] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:31.346] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:31.659] [info] Recovering column 22...
+[2024-07-30 14:20:31.659] [info] Target at column 22 taken from leak data.
+[2024-07-30 14:20:31.822] [info] Found 22: [FindResult: alpha=z^12 + z^8 + z^6 + z^5 + z^2 + z + 1 and g(alpha)=z^12 + z^11 + z^9 + z^4 + z^3 + z^2 + z with distance 189 at index 54767975]
+[2024-07-30 14:20:31.822] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:31.822] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:31.849] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:31.849] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:32.166] [info] Recovering column 23...
+[2024-07-30 14:20:32.166] [info] Target at column 23 taken from leak data.
+[2024-07-30 14:20:32.346] [info] Found 23: [FindResult: alpha=z^9 + z^8 + z^6 + z^4 + z^2 + z and g(alpha)=z^12 + z^10 + z^9 + z^5 + z^3 + 1 with distance 190 at index 46465878]
+[2024-07-30 14:20:32.346] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:32.346] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:32.373] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:32.373] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:32.688] [info] Recovering column 24...
+[2024-07-30 14:20:32.688] [info] Target at column 24 taken from leak data.
+[2024-07-30 14:20:32.859] [info] Found 24: [FindResult: alpha=z^11 + z^9 + z^7 + z^4 + z^3 + z^2 and g(alpha)=z^11 + z^10 + z^9 + z^8 + z^2 + z with distance 212 at index 31500956]
+[2024-07-30 14:20:32.859] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:32.859] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:32.886] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:32.886] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:33.202] [info] Recovering column 25...
+[2024-07-30 14:20:33.202] [info] Target at column 25 taken from leak data.
+[2024-07-30 14:20:33.365] [info] Found 25: [FindResult: alpha=z^12 + z^10 + z^9 + z^7 + z^6 + z^5 + z^3 + z^2 + z + 1 and g(alpha)=z^12 + z^11 + z^6 + z^5 + z^4 + z with distance 180 at index 51263215]
+[2024-07-30 14:20:33.365] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:33.365] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:33.391] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:33.391] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:33.694] [info] Recovering column 26...
+[2024-07-30 14:20:33.694] [info] Target at column 26 taken from leak data.
+[2024-07-30 14:20:33.859] [info] Found 26: [FindResult: alpha=z^12 + z^10 + z^8 + z^7 + z^4 + z^2 + z + 1 and g(alpha)=z^12 + z^11 + z^10 + z^9 + z^8 + z^7 + z^5 + z^2 + z with distance 192 at index 66368919]
+[2024-07-30 14:20:33.859] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:33.859] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:33.886] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:33.886] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:34.197] [info] Recovering column 27...
+[2024-07-30 14:20:34.197] [info] Target at column 27 taken from leak data.
+[2024-07-30 14:20:34.355] [info] Found 27: [FindResult: alpha=z^12 + z^11 + z^9 + z^6 + z^4 + z^2 + z and g(alpha)=z^12 + z^9 + z^7 + z^6 + z^5 + z + 1 with distance 191 at index 39606870]
+[2024-07-30 14:20:34.355] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:34.355] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:34.381] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:34.381] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:34.689] [info] Recovering column 28...
+[2024-07-30 14:20:34.689] [info] Target at column 28 taken from leak data.
+[2024-07-30 14:20:34.841] [info] Found 28: [FindResult: alpha=z^11 + z^8 + z^7 + z^5 + z^2 + 1 and g(alpha)=z^6 + z^4 + z^3 with distance 163 at index 715173]
+[2024-07-30 14:20:34.841] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:34.841] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:34.867] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:34.867] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:35.186] [info] Recovering column 29...
+[2024-07-30 14:20:35.186] [info] Target at column 29 taken from leak data.
+[2024-07-30 14:20:35.448] [info] Found 29: [FindResult: alpha=z^12 + z^10 + z^8 + z^7 + z^6 + z^4 + 1 and g(alpha)=z^12 + z^11 + z^8 + z^7 + z^5 + z^4 + z with distance 175 at index 53884369]
+[2024-07-30 14:20:35.448] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:35.448] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:35.476] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:35.476] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:35.804] [info] Recovering column 30...
+[2024-07-30 14:20:35.805] [info] Target at column 30 taken from leak data.
+[2024-07-30 14:20:35.980] [info] Found 30: [FindResult: alpha=z^12 + z^10 + z^8 + z^6 + z^5 + z^4 + z^3 + z^2 + 1 and g(alpha)=z^12 + z^10 + z^9 + z^8 + z^2 with distance 166 at index 48264573]
+[2024-07-30 14:20:35.980] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:35.980] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:36.016] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:36.016] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:36.423] [info] Recovering column 31...
+[2024-07-30 14:20:36.423] [info] Target at column 31 taken from leak data.
+[2024-07-30 14:20:36.582] [info] Found 31: [FindResult: alpha=z^11 + z^10 + z^8 + z^7 + z^4 + z^2 + z + 1 and g(alpha)=z^11 + z^9 + z^7 + z^6 + z^5 + z^3 + 1 with distance 181 at index 22875543]
+[2024-07-30 14:20:36.582] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:36.583] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:36.614] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:36.615] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:36.968] [info] Recovering column 32...
+[2024-07-30 14:20:36.968] [info] Target at column 32 taken from leak data.
+[2024-07-30 14:20:37.126] [info] Found 32: [FindResult: alpha=z^10 + z^9 + z^8 + z^6 + z^4 and g(alpha)=z^11 + z^10 + z^9 + z^8 + z^7 + z^4 + z with distance 207 at index 32646992]
+[2024-07-30 14:20:37.126] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:37.126] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:37.153] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:37.153] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:37.444] [info] Recovering column 33...
+[2024-07-30 14:20:37.444] [info] Target at column 33 taken from leak data.
+[2024-07-30 14:20:37.588] [info] Found 33: [FindResult: alpha=z^12 + z^11 + z^8 + z^7 + z^5 + z^4 + z^2 and g(alpha)=z^11 + z^7 + z^3 + z^2 + z + 1 with distance 209 at index 17947060]
+[2024-07-30 14:20:37.588] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:37.588] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:37.619] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:37.619] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:38.100] [info] Recovering column 34...
+[2024-07-30 14:20:38.100] [info] Target at column 34 taken from leak data.
+[2024-07-30 14:20:38.264] [info] Found 34: [FindResult: alpha=z^9 + z^7 + z^4 + z^3 + z^2 + z + 1 and g(alpha)=z^12 + z^11 + z^7 + z^5 + z^4 + z^3 + 1 with distance 177 at index 51839647]
+[2024-07-30 14:20:38.264] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:38.264] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:38.306] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:38.306] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:38.640] [info] Recovering column 35...
+[2024-07-30 14:20:38.641] [info] Target at column 35 taken from leak data.
+[2024-07-30 14:20:38.788] [info] Found 35: [FindResult: alpha=z^12 + z^11 + z^7 + z^6 + z^5 + z^4 + z^3 + z and g(alpha)=z^9 + z^7 with distance 198 at index 5241082]
+[2024-07-30 14:20:38.788] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:38.788] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:38.813] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:38.813] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:39.099] [info] Recovering column 36...
+[2024-07-30 14:20:39.099] [info] Target at column 36 taken from leak data.
+[2024-07-30 14:20:39.264] [info] Found 36: [FindResult: alpha=z^12 + z^10 + z^9 + z^7 + 1 and g(alpha)=z^11 + z^8 + z^7 + z^6 + z^4 + z^3 + z^2 + 1 with distance 165 at index 20682369]
+[2024-07-30 14:20:39.264] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:39.264] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:39.307] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:39.307] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:39.810] [info] Recovering column 37...
+[2024-07-30 14:20:39.811] [info] Target at column 37 taken from leak data.
+[2024-07-30 14:20:39.992] [info] Found 37: [FindResult: alpha=z^11 + z^7 + z^5 + z^3 + z and g(alpha)=z^12 + z^11 + z^10 + z^7 + z^3 with distance 167 at index 59828394]
+[2024-07-30 14:20:39.992] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:39.992] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:40.022] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:40.022] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:40.416] [info] Recovering column 38...
+[2024-07-30 14:20:40.416] [info] Target at column 38 taken from leak data.
+[2024-07-30 14:20:40.589] [info] Found 38: [FindResult: alpha=z^10 + z^5 + z^4 + 1 and g(alpha)=z^11 + z^7 + z^6 + z^5 + z^4 + z^3 + z^2 + z + 1 with distance 184 at index 18859057]
+[2024-07-30 14:20:40.589] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:40.589] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:40.620] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:40.620] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:41.049] [info] Recovering column 39...
+[2024-07-30 14:20:41.049] [info] Target at column 39 taken from leak data.
+[2024-07-30 14:20:41.245] [info] Found 39: [FindResult: alpha=z^12 + z^11 + z^10 + z^8 + z^7 + z^6 + z^5 + z + 1 and g(alpha)=z^10 + z^6 + z^5 + z^3 + z^2 + z + 1 with distance 169 at index 9297379]
+[2024-07-30 14:20:41.245] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:41.245] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:41.279] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:41.279] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:41.684] [info] Recovering column 40...
+[2024-07-30 14:20:41.684] [info] Target at column 40 taken from leak data.
+[2024-07-30 14:20:41.849] [info] Found 40: [FindResult: alpha=z^12 + z^10 + z^5 + z^4 + z^3 + z and g(alpha)=z^8 + z^5 + z^3 + z^2 with distance 210 at index 2454586]
+[2024-07-30 14:20:41.849] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:41.849] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:41.878] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:41.878] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:42.226] [info] Recovering column 41...
+[2024-07-30 14:20:42.226] [info] Target at column 41 taken from leak data.
+[2024-07-30 14:20:42.415] [info] Found 41: [FindResult: alpha=z^12 + z^11 + z^10 + z^8 + z^7 + z^6 + z + 1 and g(alpha)=z^12 + z^8 + z^6 + z^5 + z^4 + z^2 + 1 with distance 185 at index 36609475]
+[2024-07-30 14:20:42.415] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:42.415] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:42.442] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:42.442] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:42.778] [info] Recovering column 42...
+[2024-07-30 14:20:42.778] [info] Target at column 42 taken from leak data.
+[2024-07-30 14:20:42.944] [info] Found 42: [FindResult: alpha=z^11 + z^6 + z^5 + z^4 + z^3 + z^2 + z + 1 and g(alpha)=z^12 + z^6 with distance 173 at index 34072703]
+[2024-07-30 14:20:42.944] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:42.945] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:42.978] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:42.978] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:43.374] [info] Recovering column 43...
+[2024-07-30 14:20:43.374] [info] Target at column 43 taken from leak data.
+[2024-07-30 14:20:43.533] [info] Found 43: [FindResult: alpha=z^12 + z^9 + z^8 + z^7 + z^6 + z^4 + z^2 + z + 1 and g(alpha)=z^11 + z^10 + z^7 + z^6 + z^4 + z^2 + z + 1 with distance 198 at index 26923991]
+[2024-07-30 14:20:43.533] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:43.533] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:43.564] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:43.564] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:43.925] [info] Recovering column 44...
+[2024-07-30 14:20:43.925] [info] Target at column 44 taken from leak data.
+[2024-07-30 14:20:44.084] [info] Found 44: [FindResult: alpha=z^11 + z^4 + z^3 + z and g(alpha)=z^12 + z^8 + z^5 + z^4 + z^3 + z^2 + z + 1 with distance 184 at index 36161562]
+[2024-07-30 14:20:44.084] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:44.084] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:44.114] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:44.114] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:44.515] [info] Recovering column 45...
+[2024-07-30 14:20:44.515] [info] Target at column 45 taken from leak data.
+[2024-07-30 14:20:44.681] [info] Found 45: [FindResult: alpha=z^11 + z^8 + z^7 + z^6 + z^5 + z^3 + z and g(alpha)=z^9 + z^8 + z^7 + z^6 + z^5 + z^3 + z + 1 with distance 155 at index 8210922]
+[2024-07-30 14:20:44.681] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:44.682] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:44.718] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:44.718] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:45.120] [info] Recovering column 46...
+[2024-07-30 14:20:45.120] [info] Target at column 46 taken from leak data.
+[2024-07-30 14:20:45.303] [info] Found 46: [FindResult: alpha=z^11 + z^10 + z^9 + z^6 + z^5 + z + 1 and g(alpha)=z^12 + z^11 + z^9 + z^8 + z^7 + z^4 + z^2 + 1 with distance 172 at index 57839203]
+[2024-07-30 14:20:45.303] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:45.303] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:45.330] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:45.330] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:45.710] [info] Recovering column 47...
+[2024-07-30 14:20:45.710] [info] Target at column 47 taken from leak data.
+[2024-07-30 14:20:45.867] [info] Found 47: [FindResult: alpha=z^9 + z^8 + z^7 + z^5 + z^4 + z + 1 and g(alpha)=z^10 + z^8 + z^6 + z^5 + z^4 + z + 1 with distance 157 at index 11420595]
+[2024-07-30 14:20:45.867] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:45.867] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:45.900] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:45.900] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:46.275] [info] Recovering column 48...
+[2024-07-30 14:20:46.275] [info] Target at column 48 taken from leak data.
+[2024-07-30 14:20:46.457] [info] Found 48: [FindResult: alpha=z^11 + z^10 + z^9 + z^8 + z^5 and g(alpha)=z^7 + z^3 + z^2 + z + 1 with distance 204 at index 1167136]
+[2024-07-30 14:20:46.457] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:46.458] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:46.487] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:46.487] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:46.846] [info] Recovering column 49...
+[2024-07-30 14:20:46.846] [info] Target at column 49 taken from leak data.
+[2024-07-30 14:20:47.019] [info] Found 49: [FindResult: alpha=z^6 + z^5 + z^3 + 1 and g(alpha)=z^10 + z^9 + z^8 + z^7 + z^5 + z^4 + z^3 + z^2 with distance 191 at index 16212073]
+[2024-07-30 14:20:47.019] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:47.019] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:47.055] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:47.055] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:47.502] [info] Recovering column 50...
+[2024-07-30 14:20:47.502] [info] Target at column 50 taken from leak data.
+[2024-07-30 14:20:47.669] [info] Found 50: [FindResult: alpha=z^10 + z^9 + z^8 + z^6 + z^4 + 1 and g(alpha)=z^10 + z^8 + z^6 + z^5 + z^2 + 1 with distance 175 at index 11306833]
+[2024-07-30 14:20:47.669] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:47.670] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:47.709] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:47.709] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:48.178] [info] Recovering column 51...
+[2024-07-30 14:20:48.179] [info] Target at column 51 taken from leak data.
+[2024-07-30 14:20:48.331] [info] Found 51: [FindResult: alpha=z^12 + z^8 + z^7 + z^4 + z^3 + z and g(alpha)=z^12 + z^10 + z^7 + z^5 + z^3 + z^2 + 1 with distance 172 at index 43356570]
+[2024-07-30 14:20:48.331] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:48.331] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:48.366] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:48.366] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:48.691] [info] Recovering column 52...
+[2024-07-30 14:20:48.691] [info] Target at column 52 taken from leak data.
+[2024-07-30 14:20:48.833] [info] Found 52: [FindResult: alpha=z^12 + z^10 + z^8 + z^5 + z^4 + z and g(alpha)=z^12 + z^11 + z^10 + z^9 + z^7 + z^5 + z^4 + z^2 + z with distance 173 at index 64402738]
+[2024-07-30 14:20:48.833] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:48.834] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:48.861] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:48.861] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:49.192] [info] Recovering column 53...
+[2024-07-30 14:20:49.192] [info] Target at column 53 taken from leak data.
+[2024-07-30 14:20:49.349] [info] Found 53: [FindResult: alpha=z^12 + z^11 + z^10 + z^9 + z^8 + z^7 + z^6 + z^5 + z^3 + z^2 + 1 and g(alpha)=z^12 + z^10 + z^9 + z^8 + z^7 + z^6 + z^4 + z with distance 178 at index 49954797]
+[2024-07-30 14:20:49.349] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:49.349] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:49.379] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:49.379] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:49.680] [info] Recovering column 54...
+[2024-07-30 14:20:49.680] [info] Target at column 54 taken from leak data.
+[2024-07-30 14:20:49.830] [info] Found 54: [FindResult: alpha=z^12 + z^11 + z^6 + z^5 + z^2 + 1 and g(alpha)=z^11 + z^10 + z^9 + z^8 + z^7 + z^6 + z^4 + z^2 + z with distance 190 at index 33208421]
+[2024-07-30 14:20:49.830] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:49.830] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:49.868] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:49.868] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:50.177] [info] Recovering column 55...
+[2024-07-30 14:20:50.177] [info] Target at column 55 taken from leak data.
+[2024-07-30 14:20:50.367] [info] Found 55: [FindResult: alpha=z^12 + z^11 + z^8 + z^7 + z^6 + z + 1 and g(alpha)=z^11 + z^9 + z^5 + z^2 + 1 with distance 169 at index 21273027]
+[2024-07-30 14:20:50.368] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:50.368] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:50.400] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:50.400] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:50.697] [info] Recovering column 56...
+[2024-07-30 14:20:50.697] [info] Target at column 56 taken from leak data.
+[2024-07-30 14:20:50.855] [info] Found 56: [FindResult: alpha=z^11 + z^10 + z^9 + z^8 + z^6 + z^5 + z^4 + z^3 + z^2 + 1 and g(alpha)=z^9 + z^7 + z^6 + z^4 + 1 with distance 202 at index 5902205]
+[2024-07-30 14:20:50.855] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:50.855] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:50.884] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:50.884] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:51.189] [info] Recovering column 57...
+[2024-07-30 14:20:51.189] [info] Target at column 57 taken from leak data.
+[2024-07-30 14:20:51.352] [info] Found 57: [FindResult: alpha=z^12 + z^9 + z^6 + z^5 + z^4 + z + 1 and g(alpha)=z^12 + z^8 + z^6 + z^4 + 1 with distance 183 at index 36311667]
+[2024-07-30 14:20:51.352] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:51.352] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:51.392] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:51.392] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:51.824] [info] Recovering column 58...
+[2024-07-30 14:20:51.824] [info] Target at column 58 taken from leak data.
+[2024-07-30 14:20:52.003] [info] Found 58: [FindResult: alpha=z^8 + z^4 + z^2 + z + 1 and g(alpha)=z^2 + z + 1 with distance 181 at index 49431]
+[2024-07-30 14:20:52.003] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:52.003] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:52.036] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:52.036] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:52.412] [info] Recovering column 59...
+[2024-07-30 14:20:52.412] [info] Target at column 59 taken from leak data.
+[2024-07-30 14:20:52.585] [info] Found 59: [FindResult: alpha=z^10 + z^8 + z^5 + 1 and g(alpha)=z^12 + z^11 + z^10 + z^5 + z^3 + z^2 + z + 1 with distance 201 at index 59098401]
+[2024-07-30 14:20:52.585] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:52.585] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:52.613] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:52.613] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:52.914] [info] Recovering column 60...
+[2024-07-30 14:20:52.914] [info] Target at column 60 taken from leak data.
+[2024-07-30 14:20:53.096] [info] Found 60: [FindResult: alpha=z^12 + z^9 + z^7 + 1 and g(alpha)=z^12 + z^7 + z^4 + z + 1 with distance 162 at index 34755201]
+[2024-07-30 14:20:53.096] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:53.096] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:53.123] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:53.123] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:53.401] [info] Recovering column 61...
+[2024-07-30 14:20:53.401] [info] Target at column 61 taken from leak data.
+[2024-07-30 14:20:53.544] [info] Found 61: [FindResult: alpha=z^12 + z^11 + z^10 + z^9 + z^8 + z^5 + z^3 + z + 1 and g(alpha)=z^10 + z^6 + z + 1 with distance 181 at index 8937259]
+[2024-07-30 14:20:53.544] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:53.544] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:53.582] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:53.582] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:54.125] [info] Recovering column 62...
+[2024-07-30 14:20:54.125] [info] Target at column 62 taken from leak data.
+[2024-07-30 14:20:54.292] [info] Found 62: [FindResult: alpha=z^12 + z^11 + z^9 + z^7 + z^6 + z^5 + z^4 + z^2 + z + 1 and g(alpha)=z^12 + z^11 + z^8 + z^7 + z^2 + z + 1 with distance 161 at index 53533431]
+[2024-07-30 14:20:54.292] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:54.292] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:54.323] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:54.323] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:54.672] [info] Recovering column 63...
+[2024-07-30 14:20:54.672] [info] Target at column 63 taken from leak data.
+[2024-07-30 14:20:54.844] [info] Found 63: [FindResult: alpha=z^11 + z^10 + z^9 + z^5 + z^4 and g(alpha)=z^9 + z^8 + z^6 + z^5 + z^2 + 1 with distance 162 at index 7114288]
+[2024-07-30 14:20:54.844] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:54.844] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:54.875] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:54.875] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:55.167] [info] Recovering column 64...
+[2024-07-30 14:20:55.167] [info] Target at column 64 taken from leak data.
+[2024-07-30 14:20:55.314] [info] Found 64: [FindResult: alpha=z^6 + z^2 + 1 and g(alpha)=z^12 + z^11 + z^9 + z^8 + z^7 + z^5 + z^3 with distance 202 at index 57991237]
+[2024-07-30 14:20:55.314] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:55.314] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:55.340] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:55.340] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:55.632] [info] Recovering column 65...
+[2024-07-30 14:20:55.632] [info] Target at column 65 taken from leak data.
+[2024-07-30 14:20:55.781] [info] Found 65: [FindResult: alpha=z^10 + z^8 + z^7 + z^5 + z^3 + z^2 + z + 1 and g(alpha)=z^12 + z^8 + z^6 + z^5 + z^4 + z^2 + z with distance 184 at index 36611503]
+[2024-07-30 14:20:55.781] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:55.781] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:55.815] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:55.815] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:56.147] [info] Recovering column 66...
+[2024-07-30 14:20:56.147] [info] Target at column 66 taken from leak data.
+[2024-07-30 14:20:56.292] [info] Found 66: [FindResult: alpha=z^12 + z^8 + z^3 and g(alpha)=z^12 + z^11 + z^9 + z^8 + z^7 + z^6 + z^5 + z^3 + z^2 + z with distance 185 at index 58568968]
+[2024-07-30 14:20:56.292] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:56.292] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:56.317] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:56.317] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:56.613] [info] Recovering column 67...
+[2024-07-30 14:20:56.613] [info] Target at column 67 taken from leak data.
+[2024-07-30 14:20:56.770] [info] Found 67: [FindResult: alpha=z^12 + z^6 + z^5 + z^4 + z^3 + 1 and g(alpha)=z^11 + z^10 + z^8 + z^7 + z^5 + z^3 + z with distance 185 at index 28651641]
+[2024-07-30 14:20:56.770] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:56.770] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:56.810] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:56.810] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:57.245] [info] Recovering column 68...
+[2024-07-30 14:20:57.245] [info] Target at column 68 taken from leak data.
+[2024-07-30 14:20:57.443] [info] Found 68: [FindResult: alpha=z^9 + z^8 + z^6 + z^5 + z^3 and g(alpha)=z^9 + z^4 + z^3 + z^2 with distance 172 at index 4416360]
+[2024-07-30 14:20:57.443] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:57.443] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:57.471] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:57.471] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:57.762] [info] Recovering column 69...
+[2024-07-30 14:20:57.762] [info] Target at column 69 taken from leak data.
+[2024-07-30 14:20:57.914] [info] Found 69: [FindResult: alpha=z^11 + z^10 + z^8 + z^7 + z^6 + z^4 + z and g(alpha)=z^12 + z^11 + z^10 + z^9 + z^8 + z^4 + z^3 + z with distance 188 at index 65220050]
+[2024-07-30 14:20:57.914] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:57.914] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:57.941] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:57.941] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:58.239] [info] Recovering column 70...
+[2024-07-30 14:20:58.239] [info] Target at column 70 taken from leak data.
+[2024-07-30 14:20:58.406] [info] Found 70: [FindResult: alpha=z^12 + z^11 + z^10 + z^9 + z^8 + z^7 + z^6 + z^4 + z^2 + 1 and g(alpha)=z^10 + z^9 + z^6 + z^5 + z^4 + z^3 + z^2 + z + 1 with distance 173 at index 13623253]
+[2024-07-30 14:20:58.406] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:58.406] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:58.432] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:58.432] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:58.738] [info] Recovering column 71...
+[2024-07-30 14:20:58.738] [info] Target at column 71 taken from leak data.
+[2024-07-30 14:20:58.889] [info] Found 71: [FindResult: alpha=z^11 + z^10 + z^7 + z^3 + z^2 + z and g(alpha)=z^11 + z^10 + z^9 + z^6 + z^5 + z^3 + z^2 + 1 with distance 179 at index 30248078]
+[2024-07-30 14:20:58.889] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:58.889] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:58.920] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:58.920] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:59.264] [info] Recovering column 72...
+[2024-07-30 14:20:59.264] [info] Target at column 72 taken from leak data.
+[2024-07-30 14:20:59.434] [info] Found 72: [FindResult: alpha=z^11 + z^10 + z^8 + z^6 + z^5 + z^3 + 1 and g(alpha)=z^12 + z^10 + z^5 + z^3 + z^2 + z + 1 with distance 209 at index 42323305]
+[2024-07-30 14:20:59.434] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:59.434] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:20:59.461] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:20:59.461] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:20:59.805] [info] Recovering column 73...
+[2024-07-30 14:20:59.805] [info] Target at column 73 taken from leak data.
+[2024-07-30 14:20:59.980] [info] Found 73: [FindResult: alpha=z^12 + z^11 + z^9 + z^8 + z^7 + z^5 + z^3 and g(alpha)=z^10 + z^6 + z + 1 with distance 195 at index 8936360]
+[2024-07-30 14:20:59.980] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:20:59.980] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:00.008] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:00.008] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:00.306] [info] Recovering column 74...
+[2024-07-30 14:21:00.306] [info] Target at column 74 taken from leak data.
+[2024-07-30 14:21:00.465] [info] Found 74: [FindResult: alpha=z^10 + z^9 + z^8 + z^7 + z^6 + z^4 + z + 1 and g(alpha)=z^12 + z^7 + z^5 + z^4 + z + 1 with distance 182 at index 35014611]
+[2024-07-30 14:21:00.465] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:00.465] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:00.494] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:00.494] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:00.815] [info] Recovering column 75...
+[2024-07-30 14:21:00.815] [info] Target at column 75 taken from leak data.
+[2024-07-30 14:21:00.986] [info] Found 75: [FindResult: alpha=z^11 + z^10 + z^5 + z^4 + z^2 + z and g(alpha)=z^12 + z^10 + z^7 + z^6 + z^5 + z^3 + 1 with distance 183 at index 43846710]
+[2024-07-30 14:21:00.986] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:00.986] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:01.023] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:01.023] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:01.414] [info] Recovering column 76...
+[2024-07-30 14:21:01.414] [info] Target at column 76 taken from leak data.
+[2024-07-30 14:21:01.597] [info] Found 76: [FindResult: alpha=z^11 + z^10 + z^9 + z^8 + z^6 + z^3 + 1 and g(alpha)=z^10 + z^7 + 1 with distance 171 at index 9441097]
+[2024-07-30 14:21:01.597] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:01.597] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:01.627] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:01.627] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:01.963] [info] Recovering column 77...
+[2024-07-30 14:21:01.963] [info] Target at column 77 taken from leak data.
+[2024-07-30 14:21:02.135] [info] Found 77: [FindResult: alpha=z^12 + z^11 + z^8 + z^7 + z^6 + z^4 + z + 1 and g(alpha)=z^12 + z^11 + z^8 + z^4 + z^3 + z with distance 162 at index 52640211]
+[2024-07-30 14:21:02.135] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:02.135] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:02.170] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:02.170] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:02.508] [info] Recovering column 78...
+[2024-07-30 14:21:02.508] [info] Target at column 78 taken from leak data.
+[2024-07-30 14:21:02.691] [info] Found 78: [FindResult: alpha=z^11 + z^10 + z^9 + z^7 + z^4 + z + 1 and g(alpha)=z^10 + z^8 + z^3 + z + 1 with distance 172 at index 10571411]
+[2024-07-30 14:21:02.691] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:02.691] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:02.718] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:02.719] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:03.029] [info] Recovering column 79...
+[2024-07-30 14:21:03.030] [info] Target at column 79 taken from leak data.
+[2024-07-30 14:21:03.205] [info] Found 79: [FindResult: alpha=z^12 + z^10 + z^8 + z^5 + z and g(alpha)=z^12 + z^10 + z^9 + z^8 + z^7 + z^6 + z^5 + z^4 + z^3 + z^2 + 1 with distance 183 at index 50304290]
+[2024-07-30 14:21:03.205] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:03.205] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:03.240] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:03.240] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:03.586] [info] Recovering column 80...
+[2024-07-30 14:21:03.586] [info] Target at column 80 taken from leak data.
+[2024-07-30 14:21:03.760] [info] Found 80: [FindResult: alpha=z^8 + z^3 + z^2 + z + 1 and g(alpha)=z^12 + z^9 + z^8 + z^7 + z^5 + z^3 + z^2 + 1 with distance 194 at index 41255183]
+[2024-07-30 14:21:03.760] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:03.760] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:03.787] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:03.787] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:04.083] [info] Recovering column 81...
+[2024-07-30 14:21:04.083] [info] Target at column 81 taken from leak data.
+[2024-07-30 14:21:04.278] [info] Found 81: [FindResult: alpha=z^10 + z^9 + z^8 + z^6 + z^5 + z^3 + z^2 + z + 1 and g(alpha)=z^10 + z^8 + z^6 + z^5 + z^4 + z^2 + 1 with distance 208 at index 11437935]
+[2024-07-30 14:21:04.279] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:04.279] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:04.305] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:04.305] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:04.592] [info] Recovering column 82...
+[2024-07-30 14:21:04.592] [info] Target at column 82 taken from leak data.
+[2024-07-30 14:21:04.762] [info] Found 82: [FindResult: alpha=z^8 + z^6 + z^5 + z^4 + z and g(alpha)=z^6 + z^5 + z^4 with distance 175 at index 909682]
+[2024-07-30 14:21:04.762] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:04.762] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:04.795] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:04.795] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:05.107] [info] Recovering column 83...
+[2024-07-30 14:21:05.107] [info] Target at column 83 taken from leak data.
+[2024-07-30 14:21:05.261] [info] Found 83: [FindResult: alpha=z^12 + z^10 + z^9 + z^8 + z^7 + z^5 + z^4 + z^3 + 1 and g(alpha)=z^11 + z^8 + z^5 + z^4 + z^3 + z^2 with distance 167 at index 19363769]
+[2024-07-30 14:21:05.261] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:05.261] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:05.292] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:05.293] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:05.620] [info] Recovering column 84...
+[2024-07-30 14:21:05.620] [info] Target at column 84 taken from leak data.
+[2024-07-30 14:21:05.781] [info] Found 84: [FindResult: alpha=z^11 + z^10 + z^8 + z^7 + z^5 + z^2 + 1 and g(alpha)=z^12 + z^9 + z^6 + z^5 + z^4 + z^3 + z^2 + z with distance 194 at index 38776229]
+[2024-07-30 14:21:05.781] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:05.781] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:05.814] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:05.814] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:06.133] [info] Recovering column 85...
+[2024-07-30 14:21:06.133] [info] Target at column 85 taken from leak data.
+[2024-07-30 14:21:06.297] [info] Found 85: [FindResult: alpha=z^11 + z^9 + z^8 + 1 and g(alpha)=z^4 + z^2 + z + 1 with distance 165 at index 183041]
+[2024-07-30 14:21:06.297] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:06.297] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:06.330] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:06.330] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:06.660] [info] Recovering column 86...
+[2024-07-30 14:21:06.660] [info] Target at column 86 taken from leak data.
+[2024-07-30 14:21:06.840] [info] Found 86: [FindResult: alpha=z^12 + z^11 + z^9 + z^8 + z^4 + z^3 + z^2 + 1 and g(alpha)=z^11 + z^9 + z^7 + z^6 + z^5 + z^4 + z^3 with distance 164 at index 23001885]
+[2024-07-30 14:21:06.840] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:06.840] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:06.873] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:06.873] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:07.191] [info] Recovering column 87...
+[2024-07-30 14:21:07.191] [info] Target at column 87 taken from leak data.
+[2024-07-30 14:21:07.337] [info] Found 87: [FindResult: alpha=z^11 + z^9 + z^5 + z^3 + z^2 + z + 1 and g(alpha)=z^12 + z^9 + z^4 + 1 with distance 165 at index 37882415]
+[2024-07-30 14:21:07.337] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:07.337] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:07.365] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:07.365] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:07.634] [info] Recovering column 88...
+[2024-07-30 14:21:07.634] [info] Target at column 88 taken from leak data.
+[2024-07-30 14:21:07.788] [info] Found 88: [FindResult: alpha=z^8 + z^7 + z^3 + z and g(alpha)=z^12 + z^10 + z^9 + z^3 with distance 185 at index 46195082]
+[2024-07-30 14:21:07.788] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:07.788] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:07.820] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:07.820] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:08.151] [info] Recovering column 89...
+[2024-07-30 14:21:08.151] [info] Target at column 89 taken from leak data.
+[2024-07-30 14:21:08.321] [info] Found 89: [FindResult: alpha=z^6 + z^5 + 1 and g(alpha)=z^11 + z^8 + z^5 + z^2 + z + 1 with distance 199 at index 19185761]
+[2024-07-30 14:21:08.321] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:08.321] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:08.348] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:08.348] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:08.636] [info] Recovering column 90...
+[2024-07-30 14:21:08.636] [info] Target at column 90 taken from leak data.
+[2024-07-30 14:21:08.779] [info] Found 90: [FindResult: alpha=z^12 + z^11 + z^10 + z^7 + z^3 + z^2 and g(alpha)=z^12 + z^9 + z^8 + z^4 + z^2 + z + 1 with distance 189 at index 40033420]
+[2024-07-30 14:21:08.779] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:08.779] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:08.805] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:08.805] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:09.097] [info] Recovering column 91...
+[2024-07-30 14:21:09.097] [info] Target at column 91 taken from leak data.
+[2024-07-30 14:21:09.264] [info] Found 91: [FindResult: alpha=z^12 + z^10 + z^9 + z^8 + z^6 + z^5 + z^2 and g(alpha)=z^12 + z^7 + z^5 + z^4 + 1 with distance 186 at index 35002212]
+[2024-07-30 14:21:09.264] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:09.264] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:09.300] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:09.300] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:09.660] [info] Recovering column 92...
+[2024-07-30 14:21:09.660] [info] Target at column 92 taken from leak data.
+[2024-07-30 14:21:09.844] [info] Found 92: [FindResult: alpha=z^12 + z^9 + z^5 + z^4 + z^3 + z^2 and g(alpha)=z^10 + z^9 + z^8 + z^7 + z^2 + 1 with distance 207 at index 15766076]
+[2024-07-30 14:21:09.844] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:09.844] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:09.871] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:09.871] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:10.160] [info] Recovering column 93...
+[2024-07-30 14:21:10.160] [info] Target at column 93 taken from leak data.
+[2024-07-30 14:21:10.302] [info] Found 93: [FindResult: alpha=z^11 + z^10 + z^2 + z and g(alpha)=z^11 + z^10 + z^7 + z^5 + z^3 + z^2 with distance 176 at index 26569734]
+[2024-07-30 14:21:10.302] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:10.302] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:10.328] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:10.328] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:10.595] [info] Recovering column 94...
+[2024-07-30 14:21:10.595] [info] Target at column 94 taken from leak data.
+[2024-07-30 14:21:10.743] [info] Found 94: [FindResult: alpha=z^12 + z^10 + z^8 + z^7 + z^5 + z^2 + 1 and g(alpha)=z^6 + z^3 + z^2 + 1 with distance 164 at index 628133]
+[2024-07-30 14:21:10.743] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:10.743] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:10.771] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:10.771] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:11.063] [info] Recovering column 95...
+[2024-07-30 14:21:11.064] [info] Target at column 95 taken from leak data.
+[2024-07-30 14:21:11.220] [info] Found 95: [FindResult: alpha=z^12 + z^11 + z^9 + z^8 + z^5 + z^4 + z^3 + z^2 + z + 1 and g(alpha)=z^12 + z^10 + z^8 + z^6 + z^5 + z^4 + z^2 with distance 152 at index 44989247]
+[2024-07-30 14:21:11.220] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:11.220] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:11.247] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:11.247] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:11.537] [info] Recovering column 96...
+[2024-07-30 14:21:11.537] [info] Target at column 96 taken from leak data.
+[2024-07-30 14:21:11.678] [info] Found 96: [FindResult: alpha=z^9 + z^8 + z^6 + z^5 + z^3 + z and g(alpha)=z^12 + z^9 + z^6 + z^4 + z^2 with distance 186 at index 38429546]
+[2024-07-30 14:21:11.678] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:11.678] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:11.710] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:11.710] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:12.003] [info] Recovering column 97...
+[2024-07-30 14:21:12.003] [info] Target at column 97 taken from leak data.
+[2024-07-30 14:21:12.190] [info] Found 97: [FindResult: alpha=z^12 + z^9 + z^6 + z^3 + z + 1 and g(alpha)=z^12 + z^11 + z^10 + z^9 + z^8 + z^6 + z^5 + z^4 + z^3 + 1 with distance 187 at index 65999435]
+[2024-07-30 14:21:12.190] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:12.190] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:12.219] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:12.219] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:12.530] [info] Recovering column 98...
+[2024-07-30 14:21:12.530] [info] Target at column 98 taken from leak data.
+[2024-07-30 14:21:12.686] [info] Found 98: [FindResult: alpha=z^12 + z^11 + z^8 + z^5 + z^3 + z^2 and g(alpha)=z^12 + z^11 + z^8 + z^7 + z^5 + z^4 + z^2 + 1 with distance 181 at index 53909804]
+[2024-07-30 14:21:12.686] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:12.686] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:12.721] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:12.721] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:13.073] [info] Recovering column 99...
+[2024-07-30 14:21:13.073] [info] Target at column 99 taken from leak data.
+[2024-07-30 14:21:13.252] [info] Found 99: [FindResult: alpha=z^12 + z^10 + z^9 + z^7 + z^6 + z^5 + z^4 and g(alpha)=z^12 + z^11 + z^8 + z^6 + z^4 + z with distance 171 at index 53098224]
+[2024-07-30 14:21:13.252] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:13.252] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:13.279] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:13.280] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:13.579] [info] Recovering column 100...
+[2024-07-30 14:21:13.579] [info] Target at column 100 taken from leak data.
+[2024-07-30 14:21:13.726] [info] Found 100: [FindResult: alpha=z^12 + z^11 + z^7 + z^4 + z^2 + z and g(alpha)=z^12 + z^10 + z^6 + z^2 + z + 1 with distance 194 at index 42522774]
+[2024-07-30 14:21:13.726] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:13.727] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:13.754] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:13.754] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:14.026] [info] Recovering column 101...
+[2024-07-30 14:21:14.026] [info] Target at column 101 taken from leak data.
+[2024-07-30 14:21:14.176] [info] Found 101: [FindResult: alpha=z^12 + z^11 + z^10 + z^9 + z^7 + z^6 + z^4 + 1 and g(alpha)=z^12 + z^11 + z^9 + z^8 + z^7 + z^6 + z^3 + 1 with distance 187 at index 58269393]
+[2024-07-30 14:21:14.176] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:14.176] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:14.205] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:14.205] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:14.502] [info] Recovering column 102...
+[2024-07-30 14:21:14.502] [info] Target at column 102 taken from leak data.
+[2024-07-30 14:21:14.679] [info] Found 102: [FindResult: alpha=z^11 + z^8 + z^4 + z^3 + z^2 + z + 1 and g(alpha)=z^11 + z^5 + z^4 + z^2 with distance 194 at index 17197343]
+[2024-07-30 14:21:14.679] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:14.680] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:14.707] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:14.707] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:15.030] [info] Recovering column 103...
+[2024-07-30 14:21:15.030] [info] Target at column 103 taken from leak data.
+[2024-07-30 14:21:15.195] [info] Found 103: [FindResult: alpha=z^10 + z^2 + z + 1 and g(alpha)=z^8 + z^6 + z^2 + 1 with distance 164 at index 2655239]
+[2024-07-30 14:21:15.195] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:15.195] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:15.232] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:15.233] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:15.659] [info] Recovering column 104...
+[2024-07-30 14:21:15.659] [info] Target at column 104 taken from leak data.
+[2024-07-30 14:21:15.869] [info] Found 104: [FindResult: alpha=z^10 + z^9 + z^8 + z^4 + z^3 + z^2 + 1 and g(alpha)=z^11 + z^9 + z^8 + z^7 + z^6 + z^4 + z^2 + z with distance 194 at index 24815389]
+[2024-07-30 14:21:15.869] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:15.870] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:15.931] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:15.931] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:16.323] [info] Recovering column 105...
+[2024-07-30 14:21:16.323] [info] Target at column 105 taken from leak data.
+[2024-07-30 14:21:16.469] [info] Found 105: [FindResult: alpha=z^12 + z^11 + z^10 + z^9 + z^8 + z^6 + z^5 + z^3 + z and g(alpha)=z^12 + z^10 + z^9 + z^8 + z^6 + z^4 + z^3 + z + 1 with distance 166 at index 48979818]
+[2024-07-30 14:21:16.469] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:16.469] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:16.495] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:16.495] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:16.759] [info] Recovering column 106...
+[2024-07-30 14:21:16.759] [info] Target at column 106 taken from leak data.
+[2024-07-30 14:21:16.901] [info] Found 106: [FindResult: alpha=z^10 + z^9 + z^5 + z^3 + z^2 and g(alpha)=z^12 + z^11 + z^10 + z^8 + z^5 + z^2 with distance 206 at index 61105708]
+[2024-07-30 14:21:16.901] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:16.901] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:16.932] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:16.932] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:17.198] [info] Recovering column 107...
+[2024-07-30 14:21:17.198] [info] Target at column 107 taken from leak data.
+[2024-07-30 14:21:17.340] [info] Found 107: [FindResult: alpha=z^9 + z^7 + z^5 + z^4 + z^3 + z^2 + 1 and g(alpha)=z^10 + z^8 + z^7 + z^6 + z^5 + z^4 with distance 178 at index 12444349]
+[2024-07-30 14:21:17.340] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:17.340] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:17.366] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:17.366] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:17.627] [info] Recovering column 108...
+[2024-07-30 14:21:17.627] [info] Target at column 108 taken from leak data.
+[2024-07-30 14:21:17.775] [info] Found 108: [FindResult: alpha=z^12 + z^8 + z^7 + z^3 + z^2 and g(alpha)=z^12 + z^11 + z^9 with distance 192 at index 54522252]
+[2024-07-30 14:21:17.775] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:17.775] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:17.802] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:17.802] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:18.083] [info] Recovering column 109...
+[2024-07-30 14:21:18.083] [info] Target at column 109 taken from leak data.
+[2024-07-30 14:21:18.243] [info] Found 109: [FindResult: alpha=z^10 + z^8 + z^7 + z^4 + z^3 + 1 and g(alpha)=z^11 + z^9 + z^8 + z^7 + z^5 + z^4 + z^2 with distance 170 at index 24536473]
+[2024-07-30 14:21:18.243] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:18.243] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:18.291] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:18.292] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:18.830] [info] Recovering column 110...
+[2024-07-30 14:21:18.831] [info] Target at column 110 taken from leak data.
+[2024-07-30 14:21:19.025] [info] Found 110: [FindResult: alpha=z^12 + z^8 + z^7 + z^4 + z^3 + z^2 and g(alpha)=z^12 + z^11 + z^9 + z^7 + z^6 + z^4 + z^2 with distance 152 at index 56258972]
+[2024-07-30 14:21:19.025] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:19.025] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:19.050] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:19.050] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:19.323] [info] Recovering column 111...
+[2024-07-30 14:21:19.323] [info] Target at column 111 taken from leak data.
+[2024-07-30 14:21:19.500] [info] Found 111: [FindResult: alpha=z^12 + z^11 + z^7 + z^4 + z^3 + z^2 and g(alpha)=z^9 + z^6 + z^5 + z^4 + z^3 + 1 with distance 170 at index 5183644]
+[2024-07-30 14:21:19.500] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:19.500] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:19.534] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:19.534] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:19.912] [info] Recovering column 112...
+[2024-07-30 14:21:19.912] [info] Target at column 112 taken from leak data.
+[2024-07-30 14:21:20.060] [info] Found 112: [FindResult: alpha=z^11 + z^10 + z^4 + z^2 + 1 and g(alpha)=z^7 + z^6 + z^5 + z with distance 195 at index 1846293]
+[2024-07-30 14:21:20.060] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:20.060] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:20.091] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:20.091] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:20.442] [info] Recovering column 113...
+[2024-07-30 14:21:20.442] [info] Target at column 113 taken from leak data.
+[2024-07-30 14:21:20.610] [info] Found 113: [FindResult: alpha=z^10 + z^8 + z^7 + z^6 + z^5 and g(alpha)=z^9 + z^8 + z^6 + z^5 + z^4 + z^2 with distance 175 at index 7235040]
+[2024-07-30 14:21:20.610] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:20.610] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:20.637] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:20.637] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:20.902] [info] Recovering column 114...
+[2024-07-30 14:21:20.902] [info] Target at column 114 taken from leak data.
+[2024-07-30 14:21:21.061] [info] Found 114: [FindResult: alpha=z^10 + z^9 + z^5 + z^4 + z + 1 and g(alpha)=z^12 + z^11 + z^7 + z^6 + z^3 + z + 1 with distance 195 at index 51988019]
+[2024-07-30 14:21:21.061] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:21.061] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:21.094] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:21.094] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:21.463] [info] Recovering column 115...
+[2024-07-30 14:21:21.463] [info] Target at column 115 taken from leak data.
+[2024-07-30 14:21:21.650] [info] Found 115: [FindResult: alpha=z^4 + z^3 + 1 and g(alpha)=z^12 + z^11 + z^10 + z^8 + z^7 + z^5 + z^4 + z + 1 with distance 187 at index 62275609]
+[2024-07-30 14:21:21.651] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:21.651] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:21.678] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:21.678] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:21.988] [info] Recovering column 116...
+[2024-07-30 14:21:21.988] [info] Target at column 116 taken from leak data.
+[2024-07-30 14:21:22.150] [info] Found 116: [FindResult: alpha=z^9 + z^8 + z^4 + z^3 + z^2 + z and g(alpha)=z^12 + z^11 + z^9 + z^8 + z^7 + z with distance 189 at index 57680670]
+[2024-07-30 14:21:22.150] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:22.150] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:22.185] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:22.185] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:22.604] [info] Recovering column 117...
+[2024-07-30 14:21:22.604] [info] Target at column 117 taken from leak data.
+[2024-07-30 14:21:22.762] [info] Found 117: [FindResult: alpha=z^12 + z^11 + z^10 + z^9 + z^8 + z^7 + z^5 + z^4 + z^2 and g(alpha)=z^11 + z^7 + 1 with distance 165 at index 17833908]
+[2024-07-30 14:21:22.762] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:22.762] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:22.801] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:22.801] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:23.133] [info] Recovering column 118...
+[2024-07-30 14:21:23.133] [info] Target at column 118 taken from leak data.
+[2024-07-30 14:21:23.277] [info] Found 118: [FindResult: alpha=z^12 + z^10 + z^9 + z^8 + z^6 + z + 1 and g(alpha)=z^10 + z^4 + z^2 with distance 164 at index 8550211]
+[2024-07-30 14:21:23.277] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:23.277] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:23.305] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:23.305] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:23.585] [info] Recovering column 119...
+[2024-07-30 14:21:23.585] [info] Target at column 119 taken from leak data.
+[2024-07-30 14:21:23.741] [info] Found 119: [FindResult: alpha=z^11 + z^10 + z^9 + z^8 + z^7 + z^5 + z^2 and g(alpha)=z^12 + z^11 + z^7 + z^6 + z^5 + z^3 + z + 1 with distance 162 at index 52252580]
+[2024-07-30 14:21:23.741] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:23.741] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:23.776] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:23.776] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:24.115] [info] Recovering column 120...
+[2024-07-30 14:21:24.115] [info] Target at column 120 taken from leak data.
+[2024-07-30 14:21:24.275] [info] Found 120: [FindResult: alpha=z^12 + z^11 + z^9 + z^8 + z^7 + z^5 + z^4 + z^3 + z and g(alpha)=z^12 + z^11 + z^8 + z^7 + z^6 + z^5 + z^4 + z^3 + z^2 with distance 212 at index 54492090]
+[2024-07-30 14:21:24.275] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:24.275] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:24.316] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:24.316] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:24.648] [info] Recovering column 121...
+[2024-07-30 14:21:24.648] [info] Target at column 121 taken from leak data.
+[2024-07-30 14:21:24.855] [info] Found 121: [FindResult: alpha=z^11 + z^10 + z^5 + z and g(alpha)=z^12 + z^11 + z^5 + z^2 + z with distance 194 at index 50637858]
+[2024-07-30 14:21:24.855] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:24.855] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:24.886] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:24.886] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:25.199] [info] Recovering column 122...
+[2024-07-30 14:21:25.199] [info] Target at column 122 taken from leak data.
+[2024-07-30 14:21:25.361] [info] Found 122: [FindResult: alpha=z^12 + z^9 + z^8 and g(alpha)=z^12 + z^11 + z^10 + z^8 + z^5 + z^4 + z^3 + 1 with distance 203 at index 61281024]
+[2024-07-30 14:21:25.361] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:25.361] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:25.400] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:25.400] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:25.840] [info] Recovering column 123...
+[2024-07-30 14:21:25.840] [info] Target at column 123 taken from leak data.
+[2024-07-30 14:21:25.991] [info] Found 123: [FindResult: alpha=z^12 + z^10 + z^9 + z^8 + z^7 + z^3 + 1 and g(alpha)=z^12 + z^8 + z^7 + z^4 + z^3 + z^2 + 1 with distance 182 at index 36935561]
+[2024-07-30 14:21:25.992] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:25.992] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:26.021] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:26.021] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:26.291] [info] Recovering column 124...
+[2024-07-30 14:21:26.291] [info] Target at column 124 taken from leak data.
+[2024-07-30 14:21:26.433] [info] Found 124: [FindResult: alpha=z^12 + z^10 + z^8 + z^6 + z^3 + z and g(alpha)=z^11 + z^10 + z^8 + z^7 + z^5 + z^4 + z with distance 167 at index 28718410]
+[2024-07-30 14:21:26.433] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:26.433] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:26.462] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:26.462] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:26.789] [info] Recovering column 125...
+[2024-07-30 14:21:26.789] [info] Target at column 125 taken from leak data.
+[2024-07-30 14:21:26.957] [info] Found 125: [FindResult: alpha=z^12 + z^11 + z^7 + z^6 + z^5 and g(alpha)=z^11 + z^8 + z^7 + z^5 + 1 with distance 153 at index 20191456]
+[2024-07-30 14:21:26.957] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:26.957] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:26.990] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:26.990] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:27.326] [info] Recovering column 126...
+[2024-07-30 14:21:27.326] [info] Target at column 126 taken from leak data.
+[2024-07-30 14:21:27.467] [info] Found 126: [FindResult: alpha=z^10 + z^7 + z^5 + z^4 + z^2 + 1 and g(alpha)=z^12 + z^10 + z^8 + z^7 + z^6 + z^5 + z + 1 with distance 156 at index 45892789]
+[2024-07-30 14:21:27.467] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:27.467] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:27.496] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:27.496] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:27.767] [info] Recovering column 127...
+[2024-07-30 14:21:27.767] [info] Target at column 127 taken from leak data.
+[2024-07-30 14:21:27.924] [info] Found 127: [FindResult: alpha=z^11 + z^10 + z^7 + z^5 + z^4 + z and g(alpha)=z^10 + z^3 + 1 with distance 156 at index 8457394]
+[2024-07-30 14:21:27.924] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:27.924] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:27.955] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:27.955] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:28.247] [info] Recovering column 128...
+[2024-07-30 14:21:28.247] [info] Target at column 128 taken from leak data.
+[2024-07-30 14:21:28.412] [info] Found 128: [FindResult: alpha=z^12 + z^11 + z^10 + z^8 + z^6 + 1 and g(alpha)=z^12 + z^11 + z^10 + z^8 + z^7 + z^6 + z^3 + z^2 + 1 with distance 199 at index 62496065]
+[2024-07-30 14:21:30.963] [info] Goppa polynomial: X^128 + (z^12 + z^11 + z^10 + z^9 + z^8 + z^7 + z^6 + z^4 + 1)*X^127 + (z^11 + z^10 + z^9 + z^5 + z^4 + z^3 + z^2 + z + 1)*X^126 + (z^11 + z^10 + z^9 + z^7 + z^5 + z^3 + 1)*X^125 + (z^12 + z^10 + z^8 + z^7 + z^3 + z^2 + z)*X^124 + (z^11 + z^10 + z^6 + z^5 + z + 1)*X^123 + (z^12 + z^11 + z^5 + z^2 + z)*X^122 + (z^12 + z^11 + z^7 + z^5 + z^3 + z^2 + z)*X^121 + (z^11 + z^9 + z^8 + z^7 + z^6 + z^5 + z^2 + 1)*X^120 + (z^10 + z^6 + z^4 + z^3 + z^2)*X^119 + (z^12 + z^11 + z^8 + z^6 + z^5 + z^2 + z)*X^118 + (z^12 + z^9 + z^7 + z^4 + z^3 + z^2 + z)*X^117 + (z^12 + z^11 + z^10 + z^8 + z^6 + z^4 + z^3)*X^116 + (z^12 + z^7 + z^5 + z^4 + 1)*X^115 + (z^11 + z^8 + z^7 + z^3 + z^2 + z + 1)*X^114 + (z^12 + z^11 + z^9 + z^6 + z^5 + z^2 + 1)*X^113 + (z^10 + z^9 + z^4 + z)*X^112 + (z^12 + z^11 + z^10 + z^9 + z^8 + z^7 + z^6 + z^4 + z^3 + z^2 + z)*X^111 + (z^8 + z^7 + z^5 + z^4 + z^2 + z + 1)*X^110 + (z^12 + z^10 + z^9 + z^7 + z^3 + z)*X^109 + (z^10 + z^9 + z^7 + z^6 + z^5 + 1)*X^108 + (z^10 + z^8 + z^5 + z^3)*X^107 + (z^11 + z^9 + z^8 + z^7 + z^6 + z^3 + z^2)*X^106 + (z^12 + z^9 + z^8 + z^3 + z^2 + 1)*X^105 + (z^11 + z^4 + z^3)*X^104 + (z^12 + z^10 + z^8 + z^6 + z^5 + z^4 + z^2 + z + 1)*X^103 + (z^12 + z^11 + z^10 + z^7 + z^6 + z^2)*X^102 + (z^12 + z^11 + z^9 + z^8 + z^7 + z^5 + z^4 + 1)*X^101 + (z^12 + z^9 + z^7 + z^6 + 1)*X^100 + (z^12 + z^11 + z^10 + z^7 + z + 1)*X^99 + (z^12 + z^9 + z^8 + z^7 + 1)*X^98 + (z^12 + z^10 + z^7 + z^6 + z^4 + 1)*X^97 + (z^11 + z^9 + z^8 + z^7 + z^4 + z^3 + z^2)*X^96 + (z^9 + z^8 + z^7 + z^6 + z^5 + z^3 + 1)*X^95 + (z^11 + z^10 + z^7 + z^4)*X^94 + (z^11 + z^9 + z^7 + z^5)*X^93 + (z^12 + z^10 + z^8 + z^7 + z^5 + z^4 + z^3 + z + 1)*X^92 + (z^12 + z^11 + z^10 + z^9 + z^8 + z^7 + z^5 + z^3 + z)*X^91 + (z^9 + z^7 + z^6 + z^4 + z^2 + 1)*X^90 + (z^12 + z^10 + z^7 + z^6 + z^5 + 1)*X^89 + (z^12 + z^11 + z^7 + z^6 + z^5 + z^4 + z^2 + z + 1)*X^88 + (z^11 + z^10 + z^5 + z^4 + z^2 + 1)*X^87 + (z^11 + z^8 + z^7 + z^5 + z^4 + z^3 + z^2 + z)*X^86 + (z^10 + z^6 + z^5 + z)*X^85 + (z^11 + z^10 + z^8 + z^6 + z^5 + z^4 + 1)*X^84 + (z^11 + z^7 + z^6 + z^5 + z^3 + z)*X^83 + (z^11 + z^10 + z^8 + z^3 + z + 1)*X^82 + (z^9 + z^8 + z^7 + z^5 + z^4 + z^3 + z^2 + z + 1)*X^81 + (z^12 + z^9 + z^8 + z^7 + z^6 + z^3 + z + 1)*X^80 + (z^10 + z^9 + z^6 + z^5 + z^4 + z^3 + z^2)*X^79 + (z^11 + z^9 + z^8 + z^7 + z^6 + z^4 + z)*X^78 + (z^11 + z^10 + z^9 + z^4 + z^3 + z + 1)*X^77 + (z^12 + z^8 + z^7 + z^5 + z^4)*X^76 + (z^10 + z^9 + z^6 + z^5 + z^3 + z^2)*X^75 + (z^11 + z^8 + z^6 + z^5 + z^4 + z^3 + z^2)*X^74 + (z^10 + z^8 + z^4 + z^2 + z + 1)*X^73 + (z^11 + z^10 + z^7 + z^6 + z^2 + z + 1)*X^72 + (z^11 + z^10 + z^6 + z^5 + z^2 + z + 1)*X^71 + (z^11 + z^10 + z^9 + z^8 + z^5 + z^3 + z + 1)*X^70 + (z^7 + z^5 + z^3)*X^69 + (z^11 + z^10 + z^8 + z^5 + z^3 + z^2 + 1)*X^68 + (z^12 + z^11 + z^9 + z^4 + z^3 + z^2 + z)*X^67 + (z^11 + z^8 + z^2 + z)*X^66 + (z^11 + z^10 + z^8 + z^7 + z^6 + z^5 + z^4 + z^3 + z)*X^65 + (z^10 + z^6 + z^5 + z^4 + z^2 + z)*X^64 + (z^11 + z^9 + z^7 + z^6 + z^4 + z^3 + z^2 + z + 1)*X^63 + (z^12 + z^10 + z^6 + z^5 + z^4 + z + 1)*X^62 + (z^12 + z^11 + z^9 + z^7 + z^6 + z^3 + z^2)*X^61 + (z^12 + z^11 + z^8 + z^7 + z^6 + z^4 + z^3 + z)*X^60 + (z^10 + z^7 + z^4 + z^2 + 1)*X^59 + (z^12 + z^9 + z^8 + z^7 + z^6 + z^5 + z^4 + z^2)*X^58 + (z^8 + z^5 + z^4 + z + 1)*X^57 + (z^12 + z^11 + z^7 + z^6 + z^5 + z^4 + z^2 + 1)*X^56 + (z^11 + z^10 + z^6 + z^5 + z^3 + z^2)*X^55 + (z^11 + z^10 + z^8 + z^5 + z^3 + z^2 + 1)*X^54 + (z^12 + z^9 + z^8 + z^7 + z^6 + z^4 + z^2 + z + 1)*X^53 + (z^10 + z^8 + z^5 + z^2 + 1)*X^52 + (z^11 + z^10 + z^7 + z^6 + z^5 + z^3 + z + 1)*X^51 + (z^9 + z^7 + z^6 + z^5)*X^50 + (z^7 + z^6 + z^5 + z^4 + z^3 + z^2 + 1)*X^49 + (z^11 + z^9 + z^8 + z^6 + z^5 + z^4 + z^3 + z)*X^48 + (z^12 + z^11 + z^8 + z^7 + z^5 + z^3 + z + 1)*X^47 + (z^12 + z^11 + z^10 + z^8 + z^5 + z^4 + z^2 + 1)*X^46 + (z^12 + z^8 + z + 1)*X^45 + (z^12 + z^11 + z^10 + z^8 + z^4 + z^3 + 1)*X^44 + (z^12 + z^10 + z^9 + z^6 + z^5 + z^4 + z)*X^43 + (z^11 + z^7 + z^4 + z^3 + z^2)*X^42 + (z^10 + z^8 + z^5 + z^4 + z^3 + z)*X^41 + (z^10 + z^9 + z^8 + z^7 + z^6 + z^5 + z^4 + z^2 + z)*X^40 + (z^12 + z^9 + z^8 + z^5 + z^4 + z^3 + z)*X^39 + (z^12 + z^10 + z^9 + z^8 + z^7 + z^6 + z^5 + z^4 + z + 1)*X^38 + (z^11 + z^8 + z^7 + z^6 + z^3 + z^2 + 1)*X^37 + (z^12 + z^10 + z^5 + z^3)*X^36 + (z^12 + z^10 + z^9 + z^6 + z^4)*X^35 + (z^12 + z^9 + z^8 + z^7 + z^5 + z^3 + z^2)*X^34 + (z^11 + z^10 + z^9 + z^8 + z^7 + z^6 + z^5 + z^4 + z^2 + z + 1)*X^33 + (z^11 + z^10 + z^9 + z^7 + z^2 + 1)*X^32 + (z^12 + z^9 + z^7 + z^6 + z^5 + z^2)*X^31 + (z^12 + z^8 + z^4 + z^3 + z + 1)*X^30 + (z^11 + z^10 + z^5 + z^3 + 1)*X^29 + (z^10 + z^6 + z^3 + 1)*X^28 + (z^12 + z^10 + z^9 + z^8 + z^7 + z^6 + z^4 + z^3 + z^2 + 1)*X^27 + (z^11 + z^9 + z^8 + z^7 + z^4 + z^3 + z^2 + z + 1)*X^26 + (z^11 + z^9 + z^7 + z^6 + z^3 + 1)*X^25 + (z^12 + z^6 + z^5 + z^3 + z^2)*X^24 + (z^9 + z^7 + z^6 + z^5 + z^3)*X^23 + (z^12 + z^11 + z^10 + z^8 + z^7 + z^5 + z^4 + z^3 + z^2 + 1)*X^22 + (z^12 + z^11 + z^10 + z^9 + z^8 + z^6 + z^5 + z^4 + z)*X^21 + (z^12 + z^11 + z^6 + z^5 + z^4 + z^3 + z)*X^20 + (z^12 + z^10 + z^8 + z^4 + z^3 + z)*X^19 + (z^11 + z^7 + z^6 + z^3)*X^18 + (z^11 + z^9 + z^8 + z^7 + z^6 + z^5 + z^3 + z^2 + z)*X^17 + (z^12 + z^10 + z^8 + z^3 + 1)*X^16 + (z^12 + z^10 + z^9 + z^7 + z^6 + z^5 + z^2)*X^15 + (z^11 + z^9 + z^6 + z^3 + z^2 + 1)*X^14 + (z^12 + z^11 + z^10 + z^6 + z^4 + 1)*X^13 + (z^9 + z^6 + z^5 + z^4)*X^12 + (z^11 + z^7 + z^6 + z^5 + z^4 + z^3 + z^2 + z)*X^11 + (z^11 + z^10 + z^7 + z^6 + z^5 + z^4 + z^2)*X^10 + (z^12 + z^9 + z^8 + z^7 + z^4 + z^2 + z)*X^9 + (z^12 + z^11 + z^9 + z^7 + z^6 + z^5 + z^4 + z^2 + z)*X^8 + (z^11 + z^9 + z^6 + z^5 + z^3 + z^2)*X^7 + (z^8 + z^5 + z^3 + z^2 + 1)*X^6 + (z^10 + z^9 + z^7 + z^5 + z^4 + z^2 + z + 1)*X^5 + (z^11 + z^10 + z^9 + z^6 + z^5 + z^3 + z^2)*X^4 + (z^11 + z^8 + z^7 + z^6 + z^5 + z^3)*X^3 + (z^12 + z^6 + z^3 + z^2 + 1)*X^2 + (z^12 + z^11 + z^6 + z^5 + z^2 + z)*X + z^12 + z^11 + z^9 + z^7 + z^5 + z^3
+[2024-07-30 14:21:30.963] [info] Verified the solution also based on the determined goppa polynomial!
+[2024-07-30 14:21:30.963] [info] Verified the solution also based on the secret key alpha!
+[2024-07-30 14:21:30.963] [info] Verified the solution also based on the secret key goppa polynomial!
+[2024-07-30 14:21:30.998] [info] Removed 8191 candidates for the same alpha.
+[2024-07-30 14:21:30.998] [info] Filtering based on goppa polynomial...
+[2024-07-30 14:21:31.276] [info] Removed 66035970 candidates based on goppa polynomial.
+[2024-07-30 14:21:33.850] [info] Defragmentation removed a total of 67092609 columns
+[2024-07-30 14:21:33.850] [info] Applying Gauss elimination to candidate matrix.
+[2024-07-30 14:21:33.851] [info] Recovering column 129...
+[2024-07-30 14:21:33.851] [info] We recovered all columns we could, stopping key recovery early.
+[2024-07-30 14:21:33.851] [info] Corrected 23404 bits, yielding an actual error rate of 0.10903026237328563 (estimated: 0.10903509615384614)
