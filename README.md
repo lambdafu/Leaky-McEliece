@@ -9,7 +9,8 @@ Organization
  - sage/ - code to generate leaks for Classic McEliece toy parameter set
  - docker/ - code to generate all other leaks
  - results/ - scaffolding and output for the attack experiments
- - 3rdparty - third party support packages
+ - 3rdparty/ - third party support packages
+ - dpa/ - code and results for differential power analysis
 
 
 Entrypoints
@@ -40,6 +41,9 @@ support-splitting/experiments.sage
  - run the support splitting algorithm on test matrices
  - verification of the results is slow, so you may want to disable it in experiments.sage
 
+dpa/mceliece/
+ - you need a ChipWhisperer hardware to reproduce these experiments
+ - the generated traces are 1.2 GB large and take approximately 3 days to capture
 
 Build and Usage Instructions
 ----------------------------
