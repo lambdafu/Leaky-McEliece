@@ -77,6 +77,7 @@ struct CommandRecover {
     std::string distances_fname;
     bool with_report;
     std::string report_fname;
+    bool external_error;
 
     CommandRecover() {
         verbose = false;
@@ -86,6 +87,7 @@ struct CommandRecover {
         distances_fname = "distances-report.csv";
         with_report = false;
         report_fname = "report.json";
+	external_error = false;
     }
 
     template<McElieceParameters P>
@@ -93,7 +95,7 @@ struct CommandRecover {
         McEliece<P> params;
         Classic<decltype(params)> classic;
         classic.verbose = verbose;
-        classic.recover_from_leak(leakfile, seed, readout_error, with_distances, distances_fname,
+        classic.recover_from_leak(leakfile, seed, readout_error, external_error, with_distances, distances_fname,
                                   with_report, report_fname);
     }
     template<McElieceParameters P>
@@ -101,6 +103,10 @@ struct CommandRecover {
         McEliece<P> params;
         Botan<decltype(params)> botan;
         botan.verbose = verbose;
+	if (external_error) {
+		spdlog::critical("external error not supported for botan key recovery.");
+		return;
+	}
         botan.recover_from_leak(leakfile, seed, readout_error, with_report, report_fname);
     }
 
@@ -152,6 +158,7 @@ int main(int argc, char* argv[]) {
     auto* sub_recover = app.add_subcommand("recover", "calculate secret from leakfile");
     sub_recover->add_option("--seed", cmd_recover->seed, "random seed (0 means OS random)")->capture_default_str();
     sub_recover->add_option("--error", cmd_recover->readout_error, "readout error rate")->capture_default_str();
+    sub_recover->add_flag("--external-error", cmd_recover->external_error, "error is externally applied")->capture_default_str();
     sub_recover->add_flag("--with-distances", cmd_recover->with_distances, "generate distances report")->capture_default_str();
     sub_recover->add_option("--distances-file", cmd_recover->distances_fname, "generate distances report in file")->capture_default_str();
     sub_recover->add_flag("--with-report", cmd_recover->with_report, "generate result report in file")->capture_default_str();

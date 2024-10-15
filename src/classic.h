@@ -98,18 +98,29 @@ struct Classic {
     Classic() {
     }
 
-    void parse_leak(MatrixGF2& leak, Leakfile leakfile, Randomness& rng) {
+    // Returns number of leaked columns.
+    int parse_leak(MatrixGF2& leak, Leakfile leakfile, Randomness& rng) {
         std::cout << "Parsing leak in " << leakfile.filename << std::endl;
 
         // Leakage model:
         // We leak all bits of the first m*t columns of H, except for the diagonal.
         int leak_size = (params.m * params.t - 1) * params.m * params.t;
 
-        std::string leakdata = leakfile.leak.substr(leakfile.leak.length() - leak_size * 2);
+        std::string leakdata = leakfile.leak;
+	if (leakdata.length() > leak_size * 2) {
+	    std::cout << "Taking only the last " << leak_size << " bytes from leak" << std::endl;
+	    leakdata = leakdata.substr(leakfile.leak.length() - leak_size * 2);
+	}
+	if (leakdata.length() < leak_size * 2) {
+	    std::cout << "Leak file is short, will fill in remaining bits by random data.";
+	}
+	int nr_cols = leakdata.length() / 2 / (params.m * params.t - 1);
+	std::cout << "Leak file contains at least " << nr_cols << " columns" << std::endl;
+
         int leakdatapos = 1;
         for (int j = 0; j < params.m * params.t; j++) {
             for (int i = 0; i < params.m * params.t; i++) {
-                if (i != j) {
+                if (i != j && leakdatapos < leakdata.length()) {
                     char leakbyte = leakdata[leakdatapos];
                     leak.set_entry(i, j, leakbyte == '1' ? 1 : 0);
                     leakdatapos = leakdatapos + 2;
@@ -118,6 +129,8 @@ struct Classic {
                 }
             }
         }
+
+	return nr_cols;
     }
 
     // Public key is stored in rows, with the first column of the first row being bit 0 in the first byte,
@@ -180,7 +193,7 @@ struct Classic {
     }
 
     // readout_error rate
-    bool recover_from_leak(Leakfile leakfile, unsigned int seed = 0, double readout_error = 0,
+    bool recover_from_leak(Leakfile leakfile, unsigned int seed = 0, double readout_error = 0, bool external_error = false,
                            bool with_distances = false, std::string distances_report_fname="distances-report.csv",
                            bool with_report = false, std::string report_fname="result.json") {
         auto begin_recover_from_leak = std::chrono::high_resolution_clock::now();
@@ -203,8 +216,12 @@ struct Classic {
 
         // Prepare the leak file, adding the desired readout error.
         MatrixGF2 leak = MatrixGF2(params.m * params.t, params.m * params.t);
-        parse_leak(leak, leakfile, rng);
-        int bits_flipped = add_noise(leak, readout_error, rng);
+        int nr_leaked_columns = parse_leak(leak, leakfile, rng);
+
+        if (!external_error) {
+		// synthetic error
+		add_noise(leak, readout_error, rng);
+	}
         // The estimated error is the readout error applied to all bits not on the diagonal, plus half the bits on the diagonal.
         double estimated_error = 0;
         estimated_error += readout_error * (params.m * params.t) * (params.m * params.t - 1);
@@ -223,6 +240,11 @@ struct Classic {
 
         for (int current_column = 0; current_column < params.n; current_column++) {
             spdlog::info("Recovering column {0}...", current_column);
+
+	    if (current_column >= nr_leaked_columns) {
+		    spdlog::info("We recovered all columns we could, stopping key recovery early.");
+		    break;
+	    }
 
             if (with_distances)
                 analyze_codebook(candidates, current_column, distances_report_fname);
@@ -394,8 +416,8 @@ struct Classic {
         }
         auto end_recover_from_leak = std::chrono::high_resolution_clock::now();
 
-        bool success = results.size() == params.n;
-        double actual_error = ((double) errors_corrected)/(params.m*params.t * params.m*params.t);
+        bool success = results.size() == nr_leaked_columns;
+        double actual_error = ((double) errors_corrected)/(params.m*params.t * nr_leaked_columns);
         if (success) {
             spdlog::info("Corrected {} bits, yielding an actual error rate of {} (estimated: {})", errors_corrected,
                          actual_error, estimated_error);
